@@ -1,0 +1,1465 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/10/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 19 17:58:56 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>2722 seconds (2722300 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.RTC02()'><b>RTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Testing, Software Testing Updated<br/>
+<a href="#Output-52290172" onClick='toggleBox("Output-52290172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-52290172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-52290172">
+Login Successful<br/>
+Services page is displayed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.RuntimeException: Service not found: Software Testing
+	at Object_repo.ServicesPage.getServices(ServicesPage.java:110)
+	at inventory_vtiger_services.ServicesTest.RTC02(ServicesTest.java:276)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace52290172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace52290172'><pre>java.lang.RuntimeException: Service not found: Software Testing
+	at Object_repo.ServicesPage.getServices(ServicesPage.java:110)
+	at inventory_vtiger_services.ServicesTest.RTC02(ServicesTest.java:276)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>34</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_pricebook.PriceBookTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81190a8ca74bc7fac197b0e86ac224dc, clickElement {id=f.0F7773E3106367A50B254588F6F1380A.d.C68D09F17ACE9F52D5946D4BA45A6237.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9831}, goog:processID: 3744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9831/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (81190a8ca74bc7fac197b0e86ac224dc)] -&gt; id: submitButton]
+Session ID: 81190a8ca74bc7fac197b0e86ac224dc
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:439)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:194)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at Object_repo.LoginPage.getLoginBtn(LoginPage.java:49)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:77)
+	at inventory_vtiger_pricebook.PriceBookTest.STC01(PriceBookTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace756924239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace756924239'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81190a8ca74bc7fac197b0e86ac224dc, clickElement {id=f.0F7773E3106367A50B254588F6F1380A.d.C68D09F17ACE9F52D5946D4BA45A6237.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9831}, goog:processID: 3744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9831/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (81190a8ca74bc7fac197b0e86ac224dc)] -&gt; id: submitButton]
+Session ID: 81190a8ca74bc7fac197b0e86ac224dc
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:439)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:194)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at Object_repo.LoginPage.getLoginBtn(LoginPage.java:49)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:77)
+	at inventory_vtiger_pricebook.PriceBookTest.STC01(PriceBookTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>180</td>
+<td>inventory_vtiger_pricebook.PriceBookTest@4c12331b</td></tr>
+<tr>
+<td title='inventory_vtiger_vrndors.vendorsTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_vrndors.vendorsTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;hdrLink&apos;]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f9a2f87e71d3d6302873a808cd6af0b, findElement {using=xpath, value=//a[@class=&apos;hdrLink&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12523}, goog:processID: 6908, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12523/devtoo..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f9a2f87e71d3d6302873a808cd6af0b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
+	at Object_repo.LoginPage.getLoginBtn(LoginPage.java:50)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:77)
+	at inventory_vtiger_vrndors.vendorsTest.STC01(vendorsTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace65172208", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace65172208'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;hdrLink&apos;]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f9a2f87e71d3d6302873a808cd6af0b, findElement {using=xpath, value=//a[@class=&apos;hdrLink&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12523}, goog:processID: 6908, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12523/devtoo..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f9a2f87e71d3d6302873a808cd6af0b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
+	at Object_repo.LoginPage.getLoginBtn(LoginPage.java:50)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:77)
+	at inventory_vtiger_vrndors.vendorsTest.STC01(vendorsTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>101</td>
+<td>inventory_vtiger_vrndors.vendorsTest@7586beff</td></tr>
+<tr>
+<td title='inventory_vtiger_pricebook.PriceBookTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br>Parameters: Updated_new_PriceBook<br/>
+<a href="#Output-1011946373" onClick='toggleBox("Output-1011946373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1011946373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1011946373">
+Login Successful<br/>
+Price page is displayed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [931de149ec891b1c99d301f7c1083d6f, isElementDisplayed {id=f.88E0A10C248934EC562A6AA1DA358790.d.16BC8E26E091033511F86BE03421A9DE.e.1085}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9686}, goog:processID: 18300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9686/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (931de149ec891b1c99d301f7c1083d6f)] -&gt; name: bookname]
+Session ID: 931de149ec891b1c99d301f7c1083d6f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at Genric_Utility.ExplicitWait_utility.waitForElementVisible(ExplicitWait_utility.java:22)
+	at Object_repo.PriceBookPage.getPricebookName(PriceBookPage.java:64)
+	at inventory_vtiger_pricebook.PriceBookTest.FTC01(PriceBookTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1011946373", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1011946373'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [931de149ec891b1c99d301f7c1083d6f, isElementDisplayed {id=f.88E0A10C248934EC562A6AA1DA358790.d.16BC8E26E091033511F86BE03421A9DE.e.1085}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9686}, goog:processID: 18300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9686/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (931de149ec891b1c99d301f7c1083d6f)] -&gt; name: bookname]
+Session ID: 931de149ec891b1c99d301f7c1083d6f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at Genric_Utility.ExplicitWait_utility.waitForElementVisible(ExplicitWait_utility.java:22)
+	at Object_repo.PriceBookPage.getPricebookName(PriceBookPage.java:64)
+	at inventory_vtiger_pricebook.PriceBookTest.FTC01(PriceBookTest.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>85</td>
+<td>inventory_vtiger_pricebook.PriceBookTest@4c12331b</td></tr>
+<tr>
+<td title='inventory_vtiger_vrndors.vendorsTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_vrndors.vendorsTest<br>Parameters: Updated_new_vendor</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;user_name&apos;]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d12e7f81ee2d80fe45e6edbab4a7c36, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12473}, goog:processID: 14936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12473/devtoo..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d12e7f81ee2d80fe45e6edbab4a7c36
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at Object_repo.LoginPage.getUn(LoginPage.java:40)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:75)
+	at inventory_vtiger_vrndors.vendorsTest.FTC02(vendorsTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1305548441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1305548441'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;user_name&apos;]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d12e7f81ee2d80fe45e6edbab4a7c36, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12473}, goog:processID: 14936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12473/devtoo..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d12e7f81ee2d80fe45e6edbab4a7c36
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at Object_repo.LoginPage.getUn(LoginPage.java:40)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:75)
+	at inventory_vtiger_vrndors.vendorsTest.FTC02(vendorsTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>inventory_vtiger_vrndors.vendorsTest@7586beff</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.RTC01()'><b>RTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Testing, Website Development, Updated installation and configuration support<br/>
+<a href="#Output-1886391178" onClick='toggleBox("Output-1886391178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1886391178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1886391178">
+Login Successful<br/>
+Services page is displayed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.RuntimeException: Service not found: Software Testing
+	at Object_repo.ServicesPage.getServices(ServicesPage.java:110)
+	at inventory_vtiger_services.ServicesTest.RTC01(ServicesTest.java:249)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1886391178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1886391178'><pre>java.lang.RuntimeException: Service not found: Software Testing
+	at Object_repo.ServicesPage.getServices(ServicesPage.java:110)
+	at inventory_vtiger_services.ServicesTest.RTC01(ServicesTest.java:249)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>33</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_vrndors.vendorsTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_vrndors.vendorsTest<br>Parameters: Updated_new_vendor</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;user_name&apos;]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c2875772e490d7d10332b78d2ca6f1b, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9968}, goog:processID: 11424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9968/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2875772e490d7d10332b78d2ca6f1b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at Object_repo.LoginPage.getUn(LoginPage.java:40)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:75)
+	at inventory_vtiger_vrndors.vendorsTest.FTC01(vendorsTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace19666982", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace19666982'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;user_name&apos;]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c2875772e490d7d10332b78d2ca6f1b, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9968}, goog:processID: 11424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9968/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2875772e490d7d10332b78d2ca6f1b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at Object_repo.LoginPage.getUn(LoginPage.java:40)
+	at BaseClass_Utility.BaseClass.login(BaseClass.java:75)
+	at inventory_vtiger_vrndors.vendorsTest.FTC01(vendorsTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>inventory_vtiger_vrndors.vendorsTest@7586beff</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC04()'><b>FTC04</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, 1, 0, -1<br/>
+<a href="#Output-1392027380" onClick='toggleBox("Output-1392027380", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1392027380" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1392027380">
+Login Successful<br/>
+Services page is displayed<br/>
+One units value verified successfully:<br/>
+Actual Units: 1.00<br/>
+Zero units value verified successfully:<br/>
+Actual Units: <br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid No of Units}
+  (Session info: chrome=155.0.8059.84): Invalid No of Units
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb744403aa8a4d815822e9578262062b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8281}, goog:processID: 22084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8281/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb744403aa8a4d815822e9578262062b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:141)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:708)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:712)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:372)
+	at Genric_Utility.ScreenshotUtility.takeScreenshot(ScreenshotUtility.java:18)
+	at inventory_vtiger_services.ServicesTest.FTC04(ServicesTest.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1392027380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1392027380'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid No of Units}
+  (Session info: chrome=155.0.8059.84): Invalid No of Units
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb744403aa8a4d815822e9578262062b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8281}, goog:processID: 22084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8281/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb744403aa8a4d815822e9578262062b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:141)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:708)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:712)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:372)
+	at Genric_Utility.ScreenshotUtility.takeScreenshot(ScreenshotUtility.java:18)
+	at inventory_vtiger_services.ServicesTest.FTC04(ServicesTest.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>64</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Testing, Software installation and configuration support<br/>
+<a href="#Output-1163157114" onClick='toggleBox("Output-1163157114", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1163157114" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1163157114">
+Login Successful<br/>
+Services page is displayed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.RuntimeException: Service not found: Software Testing
+	at Object_repo.ServicesPage.getServices(ServicesPage.java:110)
+	at inventory_vtiger_services.ServicesTest.FTC02(ServicesTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1163157114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1163157114'><pre>java.lang.RuntimeException: Service not found: Software Testing
+	at Object_repo.ServicesPage.getServices(ServicesPage.java:110)
+	at inventory_vtiger_services.ServicesTest.FTC02(ServicesTest.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>38</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-2003448677" onClick='toggleBox("Output-2003448677", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2003448677" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2003448677">
+Login Successful<br/>
+Services page is displayed<br/>
+Created Service No: SER207<br/>
+Searching Service No: SER207<br/>
+Service creation and search workflow completed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//td[@class=&apos;small&apos;])[2]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bfab4b05e93a80cdc6a3eb7f391cc4b, findElement {using=xpath, value=(//td[@class=&apos;small&apos;])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8621}, goog:processID: 21220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8621/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bfab4b05e93a80cdc6a3eb7f391cc4b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at Object_repo.LogoutPage.getBtn(LogoutPage.java:26)
+	at BaseClass_Utility.BaseClass.logout(BaseClass.java:82)
+	at inventory_vtiger_services.ServicesTest.STC01(ServicesTest.java:220)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2003448677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2003448677'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//td[@class=&apos;small&apos;])[2]&quot;}
+  (Session info: chrome=155.0.8059.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bfab4b05e93a80cdc6a3eb7f391cc4b, findElement {using=xpath, value=(//td[@class=&apos;small&apos;])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8621}, goog:processID: 21220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8621/devtool..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bfab4b05e93a80cdc6a3eb7f391cc4b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at Object_repo.LogoutPage.getBtn(LogoutPage.java:26)
+	at BaseClass_Utility.BaseClass.logout(BaseClass.java:82)
+	at inventory_vtiger_services.ServicesTest.STC01(ServicesTest.java:220)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>57</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: New_Order<br/>
+<a href="#Output-451116002" onClick='toggleBox("Output-451116002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-451116002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-451116002">
+Login Successful<br/>
+Purchase page is displayed<br/>
+updated name is displayed<br/>
+Edited Order name: New_Order<br/>
+Edited Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO232 Updated Purchase Order SavexTechnologies_438 $600.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO233 Updated Purchase Order SavexTechnologies_3897 $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO234 SSD_BLK_PR_816 SavexTechnologies_628 $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO238 SSD_BLK_PR_1293 SavexTechnologies_4492 $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO243 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO248 Service Management Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO249 DP_Updated_PO_001 Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO254 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO255 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO258 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO268 BVA Quantity One 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO269 BVA Quantity Two 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO270 BVA Quantity One 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO332 Laptop Purchase 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO333 Laptop Purchase 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO334 BVA Quantity One 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO335 BVA Quantity Two 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO336 Delete Test Purchase Order 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Edited Orders: PO337 Delete Test Purchase Order 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>112</td>
+<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@5b12b668</td></tr>
+<tr>
+<td title='inventory_vtiger_assets.assetsTest.TC05()'><b>TC05</b><br>Test class: inventory_vtiger_assets.assetsTest<br>Parameters: Updated_new_Asset<br/>
+<a href="#Output-49250603" onClick='toggleBox("Output-49250603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-49250603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-49250603">
+Login Successful<br/>
+Assets page is displayed<br/>
+Asset Name is updated successfully<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>inventory_vtiger_assets.assetsTest@4c402120</td></tr>
+<tr>
+<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.STC03()'><b>STC03</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-559037979" onClick='toggleBox("Output-559037979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-559037979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-559037979">
+Login Successful<br/>
+Purchase page is displayed<br/>
+Purchase page is displayed<br/>
+Records are displayed for particular search<br/>
+Searched Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO232 Updated Purchase Order SavexTechnologies_438 $600.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO233 Updated Purchase Order SavexTechnologies_3897 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO234 SSD_BLK_PR_816 SavexTechnologies_628 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO238 SSD_BLK_PR_1293 SavexTechnologies_4492 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO243 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO248 Service Management Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO249 DP_Updated_PO_001 Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO254 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO255 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO258 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO268 BVA Quantity One 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO269 BVA Quantity Two 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO270 BVA Quantity One 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO332 Laptop Purchase 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO333 Laptop Purchase 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO334 BVA Quantity One 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO335 BVA Quantity Two 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO336 Delete Test Purchase Order 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO337 Delete Test Purchase Order 28CoffeeDay $0.00 ACOE Fireflink edit | del<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>101</td>
+<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@5b12b668</td></tr>
+<tr>
+<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: adsf, adsf<br/>
+<a href="#Output-172465164" onClick='toggleBox("Output-172465164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-172465164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172465164">
+Login Successful<br/>
+Username: adsf<br/>
+Password: adsf<br/>
+Error Message: You must specify a valid username and password.<br/>
+Invalid login validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>inventory_vtiger_login.LoginTest@1165b38</td></tr>
+<tr>
+<td title='inventory_vtiger_assets.assetsTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
+<a href="#Output-609946583" onClick='toggleBox("Output-609946583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-609946583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-609946583">
+Login Successful<br/>
+Assets page is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>inventory_vtiger_assets.assetsTest@4c402120</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Testing, 15000, 5<br/>
+<a href="#Output-281049997" onClick='toggleBox("Output-281049997", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-281049997" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-281049997">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_home.homePageTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_home.homePageTest<br/>
+<a href="#Output-994588190" onClick='toggleBox("Output-994588190", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-994588190" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-994588190">
+Login Successful<br/>
+Home Page is diaplayed<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>inventory_vtiger_home.homePageTest@327514f</td></tr>
+<tr>
+<td title='inventory_vtiger_assets.assetsTest.TC04()'><b>TC04</b><br>Test class: inventory_vtiger_assets.assetsTest<br>Parameters: SN1001, 2026-13-40, TestAsset1001, 10/17/26<br/>
+<a href="#Output-1550093880" onClick='toggleBox("Output-1550093880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1550093880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1550093880">
+Login Successful<br/>
+Assets page is displayed<br/>
+Confirmation message: Please enter a valid Date Sold<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>inventory_vtiger_assets.assetsTest@4c402120</td></tr>
+<tr>
+<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: , vdjh<br/>
+<a href="#Output-479086608" onClick='toggleBox("Output-479086608", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-479086608" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-479086608">
+Login Successful<br/>
+Username: <br/>
+Password: vdjh<br/>
+Error Message: You must specify a valid username and password.<br/>
+Invalid login validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>inventory_vtiger_login.LoginTest@1165b38</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.NTC02()'><b>NTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-1669860329" onClick='toggleBox("Output-1669860329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1669860329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1669860329">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Invalid Price<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.ITC03()'><b>ITC03</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-285301920" onClick='toggleBox("Output-285301920", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-285301920" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-285301920">
+Login Successful<br/>
+Services page is displayed<br/>
+Order No Subject  Vendor Name Tracking Number Total Assigned To Action<br/>
+PO348 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO350 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO355 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO357 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO360 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO361 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO363 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO368 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO372 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO374 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO376 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO399 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO402 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO406 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO407 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO409 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO411 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO413 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO417 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO421 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC03()'><b>FTC03</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-1506856374" onClick='toggleBox("Output-1506856374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1506856374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1506856374">
+Login Successful<br/>
+Services page is displayed<br/>
+Service No entered: SER207<br/>
+Service number verified successfully
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.ITC01()'><b>ITC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-1923590735" onClick='toggleBox("Output-1923590735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1923590735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1923590735">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Do you want to Overwrite the existing address with this selected organization(SystemOrg1792413412141Updated) address details?<br/>
+Quote No Subject Quote Stage Opportunity Name Organization Name Total Assigned To Action<br/>
+QUO259 Service Management Delivered SystemOrg1792413412141Updated $25,025.000 Sahu edit |<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: New_Order<br/>
+<a href="#Output-816725062" onClick='toggleBox("Output-816725062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-816725062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-816725062">
+Login Successful<br/>
+Purchase page is displayed<br/>
+updated name is displayed<br/>
+Edited Order name: New_Order<br/>
+Edited Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
+Records are displayed for particular search<br/>
+Searched Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>99</td>
+<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@5b12b668</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-1373240624" onClick='toggleBox("Output-1373240624", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1373240624" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1373240624">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-169904524" onClick='toggleBox("Output-169904524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-169904524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-169904524">
+Login Successful<br/>
+Services page is displayed<br/>
+Creating page is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.NTC01()'><b>NTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-770164810" onClick='toggleBox("Output-770164810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-770164810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-770164810">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Service Name cannot be empty<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_login.LoginTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_login.LoginTest<br/>
+<a href="#Output-206750562" onClick='toggleBox("Output-206750562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-206750562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-206750562">
+Login Successful<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>inventory_vtiger_login.LoginTest@1165b38</td></tr>
+<tr>
+<td title='inventory_vtiger_home.homePageTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_home.homePageTest<br/>
+<a href="#Output-1694924087" onClick='toggleBox("Output-1694924087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1694924087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1694924087">
+Login Successful<br/>
+Home Page is diaplayed<br/>
+Services page is displayed<br/>
+Assets page is displayed<br/>
+Purchase page is displayed<br/>
+Price page is displayed<br/>
+Vendors page is displayed<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>108</td>
+<td>inventory_vtiger_home.homePageTest@327514f</td></tr>
+<tr>
+<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: hsdb, <br/>
+<a href="#Output-1553386471" onClick='toggleBox("Output-1553386471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1553386471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1553386471">
+Login Successful<br/>
+Username: hsdb<br/>
+Password: <br/>
+Error Message: You must specify a valid username and password.<br/>
+Invalid login validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>inventory_vtiger_login.LoginTest@1165b38</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.ITC02()'><b>ITC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-2009502388" onClick='toggleBox("Output-2009502388", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2009502388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2009502388">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Do you want to Overwrite the existing address with this selected organization(TestOrg1782741937749) address details?<br/>
+Order No Subject  Organization Name Quote Name Total Assigned To Action<br/>
+SO290 Service Management TestOrg1782741117289 $25,025.000 ACOE Fireflink edit<br/>
+SO291 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO292 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO293 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO294 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO295 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO296 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO297 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO298 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO299 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO300 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO301 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO302 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO303 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO304 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO305 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO306 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO307 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
+SO308 Service Management SystemOrg1792320153949Updated $25,025.000 ACOE Fireflink edit<br/>
+SO309 Service Management SystemOrg1792320153949Updated $25,025.000 ACOE Fireflink edit<br/>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, 500, 100<br/>
+<a href="#Output-2074826904" onClick='toggleBox("Output-2074826904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2074826904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2074826904">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, Website development and maintenance support<br/>
+<a href="#Output-1585776625" onClick='toggleBox("Output-1585776625", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1585776625" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1585776625">
+Login Successful<br/>
+Services page is displayed<br/>
+Description verified successfully: Website development and maintenance support<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_assets.assetsTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
+<a href="#Output-771996532" onClick='toggleBox("Output-771996532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-771996532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-771996532">
+Login Successful<br/>
+Assets page is displayed<br/>
+Service No entered: jxhxij24<br/>
+Records are displayed for particular search<br/>
+Edited Orders: jxhxij24 Updated_new_Asset TestOrg1782741117289 cotton edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>inventory_vtiger_assets.assetsTest@4c402120</td></tr>
+<tr>
+<td title='inventory_vtiger_assets.assetsTest.TC03()'><b>TC03</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
+<a href="#Output-1922662433" onClick='toggleBox("Output-1922662433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1922662433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1922662433">
+Login Successful<br/>
+Assets page is displayed<br/>
+Showing Records 1 - 2 of 2   of 1     
+Ticket No Subject  Related To Status Priority Assigned To Action
+TT756 Indigo Flight Open Low ACOE Fireflink edit | del
+TT753 AutoTicket788 Open High ACOE Fireflink edit | del<br/>
+Showing Records 1 - 1 of 1   of 1     
+Title  File Name Modified Time Assigned To Folder Name Action
+ATekPyramidDocName QATest.txt 2026-07-01 07:47:00 ACOE Fireflink documents edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>inventory_vtiger_assets.assetsTest@4c402120</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, Data entry and data management support<br/>
+<a href="#Output-1509715205" onClick='toggleBox("Output-1509715205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1509715205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1509715205">
+Login Successful<br/>
+Services page is displayed<br/>
+Description verified successfully: Data entry and data management support<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_pricebook.PriceBookTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br>Parameters: Updated_new_PriceBook<br/>
+<a href="#Output-1367916786" onClick='toggleBox("Output-1367916786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1367916786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1367916786">
+Login Successful<br/>
+Price page is displayed<br/>
+updated name is displayed<br/>
+Edited Order name: Updated_new_PriceBook<br/>
+Edited Orders: PB159 Updated_new_PriceBook no India, Rupees edit | del<br/>
+Records are displayed for particular search<br/>
+Edited Orders: PB159 Updated_new_PriceBook no India, Rupees edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>inventory_vtiger_pricebook.PriceBookTest@4c12331b</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-550707" onClick='toggleBox("Output-550707", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-550707" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-550707">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>99</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.STC02()'><b>STC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-2000769148" onClick='toggleBox("Output-2000769148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2000769148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000769148">
+Login Successful<br/>
+Services page is displayed<br/>
+Active Status:no <br/>
+After<br/>
+Active Status:yes <br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>inventory_vtiger_services.ServicesTest@702657cc</td></tr>
+</table><p>
+</body>
+</html>

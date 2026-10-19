@@ -1,0 +1,124 @@
+package Object_repo;
+
+import java.awt.AWTException;
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.Reporter;
+
+import Genric_Utility.ExplicitWait_utility;
+
+public class PriceBookPage {
+
+	WebDriver d;
+	ExplicitWait_utility e;
+	
+	public PriceBookPage(WebDriver d) {
+		this.d=d;
+		PageFactory.initElements(d , this);
+		e = new ExplicitWait_utility(d);
+	}
+	
+	@FindBy(css = "[vtmodule='PriceBooks']")
+	private WebElement pricebooks;
+	
+	@FindBy(name = "Edit")
+	private WebElement editbtn;
+	
+	@FindBy(name = "bookname")
+	private WebElement pricebookName;
+	
+	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
+	private WebElement save;
+	
+	@FindBy(xpath = "(//a[text()='Price Books'])[3]")
+	private WebElement pricebooklink;
+	
+	@FindBy(xpath = "//tr[starts-with(@id,'row_')]")
+	private List<WebElement> allrecords;
+	
+	@FindBy(css = "[title='Price Books']")
+	private WebElement orders;
+	
+	@FindBy(css = "[title='Create Price Book...']")
+	private WebElement createPrice;
+	
+	public void getcreatePrice() {
+		createPrice.click();
+	}
+	
+	public void getpricebooks() {
+		pricebooks.click();
+	}
+	
+	public void geteditbtn() {
+		editbtn.click();
+	}
+	
+	public void getPricebookName(String name) {
+		e.waitForElementVisible(pricebookName);
+		pricebookName.clear();
+		pricebookName.sendKeys(name);
+	}
+	
+	public void getsave() throws InterruptedException {
+		save.click();
+		Thread.sleep(2000);
+	}
+	
+	public void getpricebooklink() {
+		pricebooklink.click();
+	}
+	
+	public void getorders() {
+		orders.click();
+	}
+	
+	public void verifyeditedsubject(String newName) throws InterruptedException {
+		String actualordername = orders.getText();
+		String expectedordername = newName;
+		Assert.assertEquals(actualordername, expectedordername, "updated name is not edited successfully");
+		Reporter.log("updated name is displayed" , true);
+		Reporter.log("Edited Order name: "+orders.getText(),true);
+		Thread.sleep(2000);
+		for(WebElement ele:allrecords) {
+			Reporter.log("Edited Orders: "+ele.getText(),true);
+		}
+	}
+	
+	@FindBy(xpath = "//input[@class='txtBox']")
+	private WebElement searchfortxt;
+	
+	@FindBy(id = "bas_searchfield")
+	private WebElement searchIn;
+	
+	@FindBy(name = "submit")
+	private WebElement searchnowbtn;
+	
+	public void getsearchnowbtn() {
+		searchnowbtn.click();
+	}
+	
+	public void getsearchIN() {
+		Select s = new Select(searchIn);
+		s.selectByIndex(1);
+	}
+	
+	public void getsearchfield(String newName) {
+		searchfortxt.sendKeys(newName);
+	}
+	
+	public void verifybysearchIn() {
+		int count = allrecords.size();
+		Assert.assertTrue(count>0,"Records are not displayed for particular search");
+		Reporter.log("Records are displayed for particular search",true);
+		for(WebElement ele:allrecords) {
+			Reporter.log("Edited Orders: "+ele.getText(),true);
+		}
+	}
+}

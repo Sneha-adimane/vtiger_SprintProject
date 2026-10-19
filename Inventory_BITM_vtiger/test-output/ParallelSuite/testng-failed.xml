@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [ParallelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="ParallelTests(failed)">
+    <classes>
+      <class name="inventory_vtiger_purchaseOrder.PurchaseOrderTest">
+        <methods>
+          <include name="ac"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="FTC01" invocation-numbers="0"/>
+          <include name="at"/>
+          <include name="bc"/>
+          <include name="bs"/>
+        </methods>
+      </class> <!-- inventory_vtiger_purchaseOrder.PurchaseOrderTest -->
+      <class name="inventory_vtiger_vrndors.vendorsTest">
+        <methods>
+          <include name="ac"/>
+          <include name="bt"/>
+          <include name="as"/>
+          <include name="at"/>
+          <include name="bc"/>
+          <include name="bs"/>
+          <include name="FTC02" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- inventory_vtiger_vrndors.vendorsTest -->
+      <class name="inventory_vtiger_home.homePageTest">
+        <methods>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bt"/>
+          <include name="TC01"/>
+          <include name="at"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="TC02"/>
+        </methods>
+      </class> <!-- inventory_vtiger_home.homePageTest -->
+      <class name="inventory_vtiger_login.LoginTest">
+        <methods>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="as"/>
+          <include name="at"/>
+          <include name="bc"/>
+          <include name="bs"/>
+          <include name="invalidLoginTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- inventory_vtiger_login.LoginTest -->
+      <class name="inventory_vtiger_services.ServicesTest">
+        <methods>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bt"/>
+          <include name="at"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="STC01" invocation-numbers="0"/>
+          <include name="NTC01" invocation-numbers="0"/>
+          <include name="NTC02" invocation-numbers="0"/>
+          <include name="FTC04" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- inventory_vtiger_services.ServicesTest -->
+      <class name="inventory_vtiger_pricebook.PriceBookTest">
+        <methods>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="as"/>
+          <include name="at"/>
+          <include name="FTC01" invocation-numbers="0"/>
+          <include name="bc"/>
+          <include name="bs"/>
+        </methods>
+      </class> <!-- inventory_vtiger_pricebook.PriceBookTest -->
+      <class name="inventory_vtiger_assets.assetsTest">
+        <methods>
+          <include name="bt"/>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="TC05" invocation-numbers="0"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="TC03"/>
+          <include name="TC04" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- inventory_vtiger_assets.assetsTest -->
+    </classes>
+  </test> <!-- ParallelTests(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->
