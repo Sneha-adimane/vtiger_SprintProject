@@ -109,8 +109,8 @@ public class ServicesTest extends BaseClass {
 		s.getEditlink();
 		s.getunits(negativeValue);
 		s.getsavebtn();
-		ScreenshotUtility.takeScreenshot(d, "BVA Negative Value");
 		s.verifyInvalidUnits();
+		ScreenshotUtility.takeScreenshot(d, "BVA Negative Value");
 	}
 	
 	//Verify that a service can be used to create a Quote.

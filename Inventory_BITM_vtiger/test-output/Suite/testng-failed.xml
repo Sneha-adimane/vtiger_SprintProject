@@ -5,44 +5,29 @@
     <classes>
       <class name="inventory_vtiger_services.ServicesTest">
         <methods>
+          <include name="ac"/>
           <include name="bt"/>
           <include name="as"/>
-          <include name="ac"/>
           <include name="at"/>
           <include name="bc"/>
           <include name="bs"/>
           <include name="FTC02" invocation-numbers="1"/>
-          <include name="STC01" invocation-numbers="0"/>
           <include name="RTC01" invocation-numbers="0"/>
           <include name="RTC02" invocation-numbers="0"/>
           <include name="FTC04" invocation-numbers="0"/>
         </methods>
       </class> <!-- inventory_vtiger_services.ServicesTest -->
-      <class name="inventory_vtiger_vrndors.vendorsTest">
+      <class name="inventory_vtiger_assets.assetsTest">
         <methods>
           <include name="bt"/>
-          <include name="as"/>
           <include name="ac"/>
-          <include name="at"/>
-          <include name="STC01"/>
-          <include name="bs"/>
-          <include name="bc"/>
-          <include name="FTC01" invocation-numbers="0"/>
-          <include name="FTC02" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- inventory_vtiger_vrndors.vendorsTest -->
-      <class name="inventory_vtiger_pricebook.PriceBookTest">
-        <methods>
           <include name="as"/>
-          <include name="ac"/>
-          <include name="bt"/>
           <include name="at"/>
-          <include name="FTC01" invocation-numbers="0"/>
+          <include name="TC05" invocation-numbers="0"/>
           <include name="bc"/>
           <include name="bs"/>
-          <include name="STC01"/>
         </methods>
-      </class> <!-- inventory_vtiger_pricebook.PriceBookTest -->
+      </class> <!-- inventory_vtiger_assets.assetsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

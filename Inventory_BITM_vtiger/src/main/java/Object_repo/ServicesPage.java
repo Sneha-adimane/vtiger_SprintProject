@@ -94,21 +94,47 @@ public class ServicesPage {
 	@FindBy(name = "servicecategory")
 	private WebElement category;
 	
-	public void getServices(String serviceNameFromExcel) throws InterruptedException {
-		textbox.clear();
-	    textbox.sendKeys(serviceNameFromExcel);
-	    Select s = new Select(searchfield);
-		s.selectByIndex(1);
-		getSearchbtn();
-		for (WebElement service : services) {
-            String actualServiceName = service.getText().trim();
-            if (actualServiceName.equalsIgnoreCase(serviceNameFromExcel.trim())) {
-            	service.click();
-                return;
-            }
-        }
-        throw new RuntimeException("Service not found: " + serviceNameFromExcel);
-    }
+	public void getServices(String serviceNameFromExcel)throws InterruptedException {
+	
+	    String serviceName = serviceNameFromExcel.trim();
+	    Select select = new Select(searchfield);
+	    select.selectByVisibleText("Service Name");
+	    textbox.clear();
+	    textbox.sendKeys(serviceName);
+	    searchbtn.click();
+	    WebDriverWait wait = new WebDriverWait(d, Duration.ofSeconds(15));
+	    By serviceLink = By.xpath("//table[contains(@class,'lvt')]//a[normalize-space(.)='"+ serviceName + "']");
+	    // Check the current page first
+	    for (int page = 1; page <= 2; page++) {
+	
+	        try {
+	            WebElement service = new WebDriverWait(
+	                    d, Duration.ofSeconds(3)
+	            ).until(
+	                    ExpectedConditions.elementToBeClickable(serviceLink)
+	            );
+	
+	            service.click();
+	            Reporter.log(
+	                    "Service opened successfully: " + serviceName,
+	                    true
+	            );
+	            return;
+	
+	        } catch (TimeoutException e) {
+	
+	            if (page == 1) {
+	                // Navigate to page 2 using the Next Page control
+	                By nextPage = By.xpath("//a[contains(@href,'start') and " +"(contains(@title,'Next') or contains(@title,'next'))]");
+	                wait.until(ExpectedConditions.elementToBeClickable(nextPage)).click();
+	                wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("table.lvt")));
+	            }
+	        }
+	    }
+	
+	    throw new RuntimeException("Service not found on pages 1 or 2: " + serviceName);
+	}
+
 	
 	public void servicesname() {
 		for (WebElement service : services) {

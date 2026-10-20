@@ -221,16 +221,7 @@ public class DataProviderUtility {
 	
 	@DataProvider(name = "serviceRenameData")
 	public Object[][] serviceRenameData() throws IOException {
-	    FileInputStream fis = new FileInputStream("./src/test/resources/vtiger_testdata.xlsx");
-	    Workbook wb = WorkbookFactory.create(fis);
-	    Sheet sheet = wb.getSheet("sheet5");
-	    Row row = sheet.getRow(1);
-	    DataFormatter formatter = new DataFormatter();
-	    String originalServiceName = formatter.formatCellValue(row.getCell(0)).trim();
-	    String updatedServiceName = formatter.formatCellValue(row.getCell(1)).trim();
-	    wb.close();
-	    fis.close();
-	    return new Object[][] {{ originalServiceName, updatedServiceName }};
+	    return new Object[][] {{"Software Quality Assurance", "Software_new" }};
 	}
 
 	@DataProvider(name = "orderNameData")

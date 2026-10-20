@@ -273,6 +273,7 @@ public class AssetsPage {
 	private WebElement assetLink;
 	
 	public void getassetLink() throws InterruptedException {
+		e.waitForElementClickable(assetLink);
 		assetLink.click();
 		Thread.sleep(1000);
 	}
