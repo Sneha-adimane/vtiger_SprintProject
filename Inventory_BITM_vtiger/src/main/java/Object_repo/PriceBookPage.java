@@ -3,6 +3,7 @@ package Object_repo;
 import java.awt.AWTException;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -61,7 +62,8 @@ public class PriceBookPage {
 	}
 	
 	public void getPricebookName(String name) {
-		e.waitForElementVisible(pricebookName);
+		By bookNameLocator = By.name("bookname");
+		e.waitForElementVisible(bookNameLocator);
 		pricebookName.clear();
 		pricebookName.sendKeys(name);
 	}
@@ -110,6 +112,7 @@ public class PriceBookPage {
 	}
 	
 	public void getsearchfield(String newName) {
+		searchfortxt.clear();
 		searchfortxt.sendKeys(newName);
 	}
 	
