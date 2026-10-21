@@ -160,9 +160,10 @@ public class PurchaseOrderPage {
 	}
 	
 	public void editsubject(String newName) {
-		e.waitForElementVisible(subjecttxt);
-		subjecttxt.clear();
-		subjecttxt.sendKeys(newName);
+	    By subjectLocator = By.name("subject");
+	    WebElement subjectField = e.waitForElementVisible(subjectLocator);
+	    subjectField.clear();
+	    subjectField.sendKeys(newName);
 	}
 	
 	@FindBy(name = "search_text")

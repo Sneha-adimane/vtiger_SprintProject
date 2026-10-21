@@ -1,11 +1,595 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Open Database]]>
     </line>
     <line>
       <![CDATA[PreCondition]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Services are available]]>
+    </line>
+    <line>
+      <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Services are available]]>
+    </line>
+    <line>
+      <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Services are available]]>
+    </line>
+    <line>
+      <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Website Development]]>
+    </line>
+    <line>
+      <![CDATA[Description verified successfully: Website development and maintenance support]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Software Quality Assurance]]>
+    </line>
+    <line>
+      <![CDATA[Description verified successfully: Software installation and configuration support]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Data Entry]]>
+    </line>
+    <line>
+      <![CDATA[Description verified successfully: Data entry and data management support]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Service No entered: SER207]]>
+    </line>
+    <line>
+      <![CDATA[Service number verified successfully
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Data Entry]]>
+    </line>
+    <line>
+      <![CDATA[One units value verified successfully:]]>
+    </line>
+    <line>
+      <![CDATA[Actual Units: 1.00]]>
+    </line>
+    <line>
+      <![CDATA[Zero units value verified successfully:]]>
+    </line>
+    <line>
+      <![CDATA[Actual Units: ]]>
+    </line>
+    <line>
+      <![CDATA[Alert message displayed: Invalid No of Units]]>
+    </line>
+    <line>
+      <![CDATA[Invalid units validation verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Alert popup handled successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Confirmation message: Do you want to Overwrite the existing address with this selected organization(navin) address details?]]>
+    </line>
+    <line>
+      <![CDATA[Quote No Subject Quote Stage Opportunity Name Organization Name Total Assigned To Action]]>
+    </line>
+    <line>
+      <![CDATA[QUO259 Service Management Delivered SystemOrg1792413412141Updated $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO261 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO262 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO263 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO264 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO265 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO266 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO267 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO268 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[QUO269 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Confirmation message: Do you want to Overwrite the existing address with this selected organization(navin) address details?]]>
+    </line>
+    <line>
+      <![CDATA[Order No Subject  Organization Name Quote Name Total Assigned To Action]]>
+    </line>
+    <line>
+      <![CDATA[SO290 Service Management TestOrg1782741117289 $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO291 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO292 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO293 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO294 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO295 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO296 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO297 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO298 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO299 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO300 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO301 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO302 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO303 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO304 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO305 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO306 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO307 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO308 Service Management SystemOrg1792320153949Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[SO309 Service Management SystemOrg1792320153949Updated $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Order No Subject  Vendor Name Tracking Number Total Assigned To Action]]>
+    </line>
+    <line>
+      <![CDATA[PO348 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO350 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO355 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO357 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO360 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO361 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO363 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO368 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO372 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO374 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO376 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO399 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO402 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO406 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO407 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO409 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO411 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO413 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO417 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[PO421 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Confirmation message: Service Name cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Signout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Confirmation message: Invalid Price]]>
+    </line>
+    <line>
+      <![CDATA[Signout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Software Quality Assurance]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Website Development]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Software Quality Assurance]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Software Quality Assurance]]>
+    </line>
+    <line>
+      <![CDATA[Original Description: Software installation and configuration support]]>
+    </line>
+    <line>
+      <![CDATA[Updated Description: Updated installation and configuration support]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Website Development]]>
+    </line>
+    <line>
+      <![CDATA[Service description verified successfully: Website development and maintenance support]]>
+    </line>
+    <line>
+      <![CDATA[Signout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
     </line>
     <line>
       <![CDATA[Opening browser]]>
@@ -38,35 +622,189 @@
       <![CDATA[Browser closed successfully]]>
     </line>
     <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Created Service No: SER207]]>
+    </line>
+    <line>
+      <![CDATA[Searching Service No: SER207]]>
+    </line>
+    <line>
+      <![CDATA[Service opened successfully: Website Development]]>
+    </line>
+    <line>
+      <![CDATA[Service creation and search workflow completed]]>
+    </line>
+    <line>
+      <![CDATA[Signout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Active Status:yes ]]>
+    </line>
+    <line>
+      <![CDATA[After]]>
+    </line>
+    <line>
+      <![CDATA[Active Status:no ]]>
+    </line>
+    <line>
+      <![CDATA[Signout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Services are available]]>
+    </line>
+    <line>
+      <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Services page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Creating page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
       <![CDATA[PostCondition]]>
     </line>
     <line>
       <![CDATA[Close Database connectivity]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-20T22:53:52 IST" name="Default suite" finished-at="2026-10-20T22:54:31 IST" duration-ms="39178">
+  <suite started-at="2026-10-21T09:03:48 IST" name="Default suite" finished-at="2026-10-21T09:19:11 IST" duration-ms="923228">
     <groups>
+      <group name="ST">
+        <method signature="ServicesTest.STC01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="STC01" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.STC02()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="STC02" class="inventory_vtiger_services.ServicesTest"/>
+      </group> <!-- ST -->
+      <group name="Neg">
+        <method signature="ServicesTest.NTC01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="NTC01" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.NTC02(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="NTC02" class="inventory_vtiger_services.ServicesTest"/>
+      </group> <!-- Neg -->
       <group name="RT">
-        <method signature="ServicesTest.RTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" name="RTC02" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.RTC01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="RTC01" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.RTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="RTC02" class="inventory_vtiger_services.ServicesTest"/>
       </group> <!-- RT -->
+      <group name="Smoke">
+        <method signature="ServicesTest.TC01()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="TC01" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.TC02()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="TC02" class="inventory_vtiger_services.ServicesTest"/>
+      </group> <!-- Smoke -->
+      <group name="IT">
+        <method signature="ServicesTest.ITC01(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="ITC01" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.ITC02(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="ITC02" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.ITC03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="ITC03" class="inventory_vtiger_services.ServicesTest"/>
+      </group> <!-- IT -->
+      <group name="FT">
+        <method signature="ServicesTest.FTC01(java.lang.String,int,int)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="FTC01" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.FTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="FTC02" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.FTC03()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="FTC03" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.FTC04(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="FTC04" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.NTC01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="NTC01" class="inventory_vtiger_services.ServicesTest"/>
+        <method signature="ServicesTest.NTC02(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" name="NTC02" class="inventory_vtiger_services.ServicesTest"/>
+      </group> <!-- FT -->
     </groups>
-    <test started-at="2026-10-20T22:53:52 IST" name="Default test" finished-at="2026-10-20T22:54:31 IST" duration-ms="39178">
+    <test started-at="2026-10-21T09:03:48 IST" name="Default test" finished-at="2026-10-21T09:19:11 IST" duration-ms="923228">
       <class name="inventory_vtiger_services.ServicesTest">
-        <test-method is-config="true" signature="bs()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-20T22:53:52 IST" name="bs" finished-at="2026-10-20T22:53:52 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="bs()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:03:48 IST" name="bs" finished-at="2026-10-21T09:03:48 IST" duration-ms="18" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Database]]>
             </line>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-20T22:53:52 IST" name="bt" finished-at="2026-10-20T22:53:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:03:48 IST" name="bt" finished-at="2026-10-21T09:03:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PreCondition]]>
             </line>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-20T22:53:52 IST" name="bc" finished-at="2026-10-20T22:53:56 IST" duration-ms="3960" status="PASS">
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:03:50 IST" name="bc" finished-at="2026-10-21T09:03:54 IST" duration-ms="4778" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +821,1143 @@
             </line>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method signature="RTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-20T22:53:56 IST" name="RTC02" data-provider="serviceRenameData" finished-at="2026-10-20T22:54:31 IST" duration-ms="34946" status="PASS">
+        <test-method signature="FTC01(java.lang.String,int,int)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:03:54 IST" name="FTC01" data-provider="getServiceData" finished-at="2026-10-21T09:04:35 IST" duration-ms="40553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Website Development]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Services are available]]>
+            </line>
+            <line>
+              <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:04:35 IST" name="ac" finished-at="2026-10-21T09:04:35 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:04:35 IST" name="bc" finished-at="2026-10-21T09:04:41 IST" duration-ms="5280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC01(java.lang.String,int,int)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:04:41 IST" name="FTC01" data-provider="getServiceData" finished-at="2026-10-21T09:05:38 IST" duration-ms="57075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software Quality Assurance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Services are available]]>
+            </line>
+            <line>
+              <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:05:38 IST" name="ac" finished-at="2026-10-21T09:05:38 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:05:38 IST" name="bc" finished-at="2026-10-21T09:05:42 IST" duration-ms="4419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC01(java.lang.String,int,int)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:05:42 IST" name="FTC01" data-provider="getServiceData" finished-at="2026-10-21T09:07:05 IST" duration-ms="82630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data Entry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Services are available]]>
+            </line>
+            <line>
+              <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:07:05 IST" name="ac" finished-at="2026-10-21T09:07:05 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:07:05 IST" name="bc" finished-at="2026-10-21T09:07:10 IST" duration-ms="4974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:07:10 IST" name="FTC02" data-provider="getServiceUpdateData" finished-at="2026-10-21T09:08:19 IST" duration-ms="69015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Website Development]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Website development and maintenance support]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Website Development]]>
+            </line>
+            <line>
+              <![CDATA[Description verified successfully: Website development and maintenance support]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:08:19 IST" name="ac" finished-at="2026-10-21T09:08:20 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:08:20 IST" name="bc" finished-at="2026-10-21T09:08:25 IST" duration-ms="5160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:08:25 IST" name="FTC02" data-provider="getServiceUpdateData" finished-at="2026-10-21T09:09:30 IST" duration-ms="65436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software Quality Assurance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Software installation and configuration support]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Software Quality Assurance]]>
+            </line>
+            <line>
+              <![CDATA[Description verified successfully: Software installation and configuration support]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:09:30 IST" name="ac" finished-at="2026-10-21T09:09:31 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:09:31 IST" name="bc" finished-at="2026-10-21T09:09:41 IST" duration-ms="10072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:09:41 IST" name="FTC02" data-provider="getServiceUpdateData" finished-at="2026-10-21T09:10:30 IST" duration-ms="49577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data Entry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data entry and data management support]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Data Entry]]>
+            </line>
+            <line>
+              <![CDATA[Description verified successfully: Data entry and data management support]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:10:30 IST" name="ac" finished-at="2026-10-21T09:10:31 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:10:31 IST" name="bc" finished-at="2026-10-21T09:10:35 IST" duration-ms="4489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC03()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:10:35 IST" name="FTC03" finished-at="2026-10-21T09:11:09 IST" duration-ms="33883" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Service No entered: SER207]]>
+            </line>
+            <line>
+              <![CDATA[Service number verified successfully
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC03 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:11:09 IST" name="ac" finished-at="2026-10-21T09:11:09 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:11:09 IST" name="bc" finished-at="2026-10-21T09:11:13 IST" duration-ms="4154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC04(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:11:13 IST" name="FTC04" data-provider="serviceData" finished-at="2026-10-21T09:11:58 IST" duration-ms="44191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data Entry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Data Entry]]>
+            </line>
+            <line>
+              <![CDATA[One units value verified successfully:]]>
+            </line>
+            <line>
+              <![CDATA[Actual Units: 1.00]]>
+            </line>
+            <line>
+              <![CDATA[Zero units value verified successfully:]]>
+            </line>
+            <line>
+              <![CDATA[Actual Units: ]]>
+            </line>
+            <line>
+              <![CDATA[Alert message displayed: Invalid No of Units]]>
+            </line>
+            <line>
+              <![CDATA[Invalid units validation verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Alert popup handled successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC04 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:11:58 IST" name="ac" finished-at="2026-10-21T09:11:58 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:11:58 IST" name="bc" finished-at="2026-10-21T09:12:02 IST" duration-ms="4010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="ITC01(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:12:02 IST" name="ITC01" data-provider="quoteData" finished-at="2026-10-21T09:12:42 IST" duration-ms="40262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Service Management]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2026/11/16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 MG Road]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123 MG Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Payment within 30 days]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Quote for website development services]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Confirmation message: Do you want to Overwrite the existing address with this selected organization(navin) address details?]]>
+            </line>
+            <line>
+              <![CDATA[Quote No Subject Quote Stage Opportunity Name Organization Name Total Assigned To Action]]>
+            </line>
+            <line>
+              <![CDATA[QUO259 Service Management Delivered SystemOrg1792413412141Updated $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO261 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO262 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO263 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO264 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO265 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO266 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO267 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO268 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+            <line>
+              <![CDATA[QUO269 Service Management Delivered navin $25,025.000 Sahu edit |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ITC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:12:42 IST" name="ac" finished-at="2026-10-21T09:12:42 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:12:43 IST" name="bc" finished-at="2026-10-21T09:12:47 IST" duration-ms="4265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="ITC02(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:12:47 IST" name="ITC02" data-provider="quoteData" finished-at="2026-10-21T09:13:28 IST" duration-ms="40939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Service Management]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2026/11/16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 MG Road]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123 MG Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Payment within 30 days]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Quote for website development services]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Confirmation message: Do you want to Overwrite the existing address with this selected organization(navin) address details?]]>
+            </line>
+            <line>
+              <![CDATA[Order No Subject  Organization Name Quote Name Total Assigned To Action]]>
+            </line>
+            <line>
+              <![CDATA[SO290 Service Management TestOrg1782741117289 $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO291 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO292 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO293 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO294 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO295 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO296 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO297 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO298 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO299 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO300 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO301 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO302 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO303 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO304 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO305 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO306 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO307 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO308 Service Management SystemOrg1792320153949Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[SO309 Service Management SystemOrg1792320153949Updated $25,025.000 ACOE Fireflink edit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ITC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:13:28 IST" name="ac" finished-at="2026-10-21T09:13:28 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:13:28 IST" name="bc" finished-at="2026-10-21T09:13:32 IST" duration-ms="4004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="ITC03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:13:32 IST" name="ITC03" data-provider="quoteData" finished-at="2026-10-21T09:14:11 IST" duration-ms="38750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Service Management]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2026/11/16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 MG Road]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123 MG Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Payment within 30 days]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Quote for website development services]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Order No Subject  Vendor Name Tracking Number Total Assigned To Action]]>
+            </line>
+            <line>
+              <![CDATA[PO348 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO350 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO355 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO357 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO360 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO361 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO363 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO368 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO372 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO374 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO376 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO399 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO402 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO406 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO407 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO409 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO411 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO413 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO417 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+            <line>
+              <![CDATA[PO421 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ITC03 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:14:11 IST" name="ac" finished-at="2026-10-21T09:14:11 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:14:11 IST" name="bc" finished-at="2026-10-21T09:14:15 IST" duration-ms="4033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="NTC01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:14:15 IST" name="NTC01" data-provider="serviceWorkflowData" finished-at="2026-10-21T09:14:44 IST" duration-ms="29038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Website Development]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Confirmation message: Service Name cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Signout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NTC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:14:44 IST" name="ac" finished-at="2026-10-21T09:14:45 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:14:45 IST" name="bc" finished-at="2026-10-21T09:14:48 IST" duration-ms="3748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="NTC02(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:14:48 IST" name="NTC02" data-provider="serviceWorkflowData" finished-at="2026-10-21T09:15:17 IST" duration-ms="29123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Website Development]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Confirmation message: Invalid Price]]>
+            </line>
+            <line>
+              <![CDATA[Signout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NTC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:15:17 IST" name="ac" finished-at="2026-10-21T09:15:18 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:15:18 IST" name="bc" finished-at="2026-10-21T09:15:22 IST" duration-ms="3801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="RTC01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:15:22 IST" name="RTC01" data-provider="serviceIsolationData" finished-at="2026-10-21T09:16:14 IST" duration-ms="52709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software Quality Assurance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Website Development]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Updated installation and configuration support]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Software Quality Assurance]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Website Development]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Software Quality Assurance]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Software Quality Assurance]]>
+            </line>
+            <line>
+              <![CDATA[Original Description: Software installation and configuration support]]>
+            </line>
+            <line>
+              <![CDATA[Updated Description: Updated installation and configuration support]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Website Development]]>
+            </line>
+            <line>
+              <![CDATA[Service description verified successfully: Website development and maintenance support]]>
+            </line>
+            <line>
+              <![CDATA[Signout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RTC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:16:14 IST" name="ac" finished-at="2026-10-21T09:16:15 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:16:15 IST" name="bc" finished-at="2026-10-21T09:16:19 IST" duration-ms="3869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="RTC02(java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:16:19 IST" name="RTC02" data-provider="serviceRenameData" finished-at="2026-10-21T09:16:58 IST" duration-ms="39350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +1991,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- RTC02 -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-20T22:54:31 IST" name="ac" finished-at="2026-10-20T22:54:31 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:16:58 IST" name="ac" finished-at="2026-10-21T09:16:58 IST" duration-ms="348" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test completed]]>
@@ -127,14 +2001,235 @@
             </line>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-20T22:54:31 IST" name="at" finished-at="2026-10-20T22:54:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:16:58 IST" name="bc" finished-at="2026-10-21T09:17:02 IST" duration-ms="3939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="STC01(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:17:02 IST" name="STC01" data-provider="serviceWorkflowData" finished-at="2026-10-21T09:17:38 IST" duration-ms="35742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Website Development]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Created Service No: SER207]]>
+            </line>
+            <line>
+              <![CDATA[Searching Service No: SER207]]>
+            </line>
+            <line>
+              <![CDATA[Service opened successfully: Website Development]]>
+            </line>
+            <line>
+              <![CDATA[Service creation and search workflow completed]]>
+            </line>
+            <line>
+              <![CDATA[Signout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- STC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:17:38 IST" name="ac" finished-at="2026-10-21T09:17:38 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:17:38 IST" name="bc" finished-at="2026-10-21T09:17:42 IST" duration-ms="3989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="STC02()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:17:42 IST" name="STC02" finished-at="2026-10-21T09:18:11 IST" duration-ms="28694" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Active Status:yes ]]>
+            </line>
+            <line>
+              <![CDATA[After]]>
+            </line>
+            <line>
+              <![CDATA[Active Status:no ]]>
+            </line>
+            <line>
+              <![CDATA[Signout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- STC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:18:11 IST" name="ac" finished-at="2026-10-21T09:18:11 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:18:11 IST" name="bc" finished-at="2026-10-21T09:18:15 IST" duration-ms="3997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="TC01()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:18:15 IST" name="TC01" finished-at="2026-10-21T09:18:41 IST" duration-ms="25658" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Services are available]]>
+            </line>
+            <line>
+              <![CDATA[Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:18:41 IST" name="ac" finished-at="2026-10-21T09:18:41 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:18:41 IST" name="bc" finished-at="2026-10-21T09:18:45 IST" duration-ms="4103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="TC02()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:18:45 IST" name="TC02" finished-at="2026-10-21T09:19:11 IST" duration-ms="25733" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Services page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Creating page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:19:11 IST" name="ac" finished-at="2026-10-21T09:19:11 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:19:11 IST" name="at" finished-at="2026-10-21T09:19:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PostCondition]]>
             </line>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-20T22:54:31 IST" name="as" finished-at="2026-10-20T22:54:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:inventory_vtiger_services.ServicesTest@557caf28]" started-at="2026-10-21T09:19:12 IST" name="as" finished-at="2026-10-21T09:19:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Database connectivity]]>

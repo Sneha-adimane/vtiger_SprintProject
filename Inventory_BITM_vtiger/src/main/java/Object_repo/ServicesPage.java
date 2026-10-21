@@ -70,7 +70,7 @@ public class ServicesPage {
 	@FindBy(xpath = "//input[@value='  Save  ']")
 	private WebElement savebtn;
 	
-	@FindBy(xpath = "(//a[text()='Services'])[3]")
+	@FindBy(xpath = "(//a[normalize-space()='Services'])[3]")
 	private WebElement serviceslink;
 	
 	@FindBy(name = "description")
@@ -108,21 +108,11 @@ public class ServicesPage {
 	    for (int page = 1; page <= 2; page++) {
 	
 	        try {
-	            WebElement service = new WebDriverWait(
-	                    d, Duration.ofSeconds(3)
-	            ).until(
-	                    ExpectedConditions.elementToBeClickable(serviceLink)
-	            );
-	
+	            WebElement service = new WebDriverWait(d, Duration.ofSeconds(3)).until(ExpectedConditions.elementToBeClickable(serviceLink));
 	            service.click();
-	            Reporter.log(
-	                    "Service opened successfully: " + serviceName,
-	                    true
-	            );
+	            Reporter.log("Service opened successfully: " + serviceName,true);
 	            return;
-	
 	        } catch (TimeoutException e) {
-	
 	            if (page == 1) {
 	                // Navigate to page 2 using the Next Page control
 	                By nextPage = By.xpath("//a[contains(@href,'start') and " +"(contains(@title,'Next') or contains(@title,'next'))]");
@@ -131,7 +121,6 @@ public class ServicesPage {
 	            }
 	        }
 	    }
-	
 	    throw new RuntimeException("Service not found on pages 1 or 2: " + serviceName);
 	}
 

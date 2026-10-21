@@ -278,23 +278,25 @@ public class AssetsPage {
 		Thread.sleep(1000);
 	}
 	
-	@FindBy(css = "[title='Assets']")
-	private WebElement record;
+	@FindBy(xpath = "//tr[starts-with(@id,'row_')]//a")
+	private List<WebElement> assetRecords;
 	
-	public void verifyAssetNameUpdated(String newName) throws AWTException, InterruptedException {
-		txtbox.clear();
-		txtbox.sendKeys(newName);
-		searchIn.click();
-		Robot r = new Robot();
-		r.keyPress(KeyEvent.VK_DOWN);
-		r.keyRelease(KeyEvent.VK_DOWN);
-		r.keyPress(KeyEvent.VK_ENTER);
-		r.keyRelease(KeyEvent.VK_ENTER);
-		getsearchnow();
-		Thread.sleep(2000);;
-		String actualName = record.getText();
-		Assert.assertEquals(actualName, newName,"Asset name was not updated correctly!");
-		Reporter.log("Asset Name is updated successfully" , true);
+	public void verifyAssetNameUpdated(String newName)throws AWTException, InterruptedException {
+	    txtbox.clear();
+	    txtbox.sendKeys(newName);
+	    searchIn.click();
+	    Robot r = new Robot();
+	    r.keyPress(KeyEvent.VK_DOWN);
+	    r.keyRelease(KeyEvent.VK_DOWN);
+	    r.keyPress(KeyEvent.VK_ENTER);
+	    r.keyRelease(KeyEvent.VK_ENTER);
+	    getsearchnow();
+	    By matchingAsset = By.xpath("//tr[starts-with(@id,'row_')]//a[normalize-space()='"+ newName + "']");
+	    e.waitForElementVisible(matchingAsset);
+	    WebElement record = d.findElement(matchingAsset);
+	    String actualName = record.getText().trim();
+	    Assert.assertEquals(actualName,newName,"Asset name was not updated correctly!");
+	    Reporter.log("Asset Name is updated successfully", true);
 	}
 }
 

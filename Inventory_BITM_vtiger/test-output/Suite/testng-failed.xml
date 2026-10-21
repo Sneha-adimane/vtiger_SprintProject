@@ -11,23 +11,10 @@
           <include name="at"/>
           <include name="bc"/>
           <include name="bs"/>
-          <include name="FTC02" invocation-numbers="1"/>
+          <include name="STC01" invocation-numbers="0"/>
           <include name="RTC01" invocation-numbers="0"/>
-          <include name="RTC02" invocation-numbers="0"/>
-          <include name="FTC04" invocation-numbers="0"/>
         </methods>
       </class> <!-- inventory_vtiger_services.ServicesTest -->
-      <class name="inventory_vtiger_assets.assetsTest">
-        <methods>
-          <include name="bt"/>
-          <include name="ac"/>
-          <include name="as"/>
-          <include name="at"/>
-          <include name="TC05" invocation-numbers="0"/>
-          <include name="bc"/>
-          <include name="bs"/>
-        </methods>
-      </class> <!-- inventory_vtiger_assets.assetsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

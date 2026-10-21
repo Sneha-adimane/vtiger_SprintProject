@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  		<groups>
+            <run>
+                <include name="FT"/>
+            </run>
+  		</groups>
+    <classes>
+      <class name="inventory_vtiger_services.ServicesTest"/>
+      <class name="inventory_vtiger_assets.assetsTest"/>
+      <class name="inventory_vtiger_home.homePageTest"/>
+      <class name="inventory_vtiger_purchaseOrder.PurchaseOrderTest"/>
+      <class name="inventory_vtiger_login.LoginTest"/>
+      <class name="inventory_vtiger_pricebook.PriceBookTest"/>
+      <class name="inventory_vtiger_vrndors.vendorsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
