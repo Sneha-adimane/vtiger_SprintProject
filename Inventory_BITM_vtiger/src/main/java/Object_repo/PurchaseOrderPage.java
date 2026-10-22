@@ -199,6 +199,7 @@ public class PurchaseOrderPage {
 	private List<WebElement> allrecords;
 	
 	public void verifyeditedsubject(String newName) throws InterruptedException {
+		Thread.sleep(2000);
 		String actualordername = orders.getText();
 		String expectedordername = newName;
 		Assert.assertEquals(actualordername, expectedordername, "updated name is not edited successfully");

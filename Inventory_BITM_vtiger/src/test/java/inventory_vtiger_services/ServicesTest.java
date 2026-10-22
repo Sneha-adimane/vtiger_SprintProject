@@ -277,6 +277,7 @@ public class ServicesTest extends BaseClass {
 		s.getEditlink();
 	    s.updateServiceName(updatedServiceName);
 	    s.geteditsavebtn();
+	    Thread.sleep(1000);
 		s.getServiceslink();
 	    s.getServices(updatedServiceName);
 		s.verifyServiceName(updatedServiceName);
