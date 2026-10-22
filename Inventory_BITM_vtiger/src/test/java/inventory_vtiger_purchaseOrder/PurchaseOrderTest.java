@@ -22,7 +22,7 @@ public class PurchaseOrderTest extends BaseClass{
 	}
 
 	//Verify that an existing Purchase Order name can be edited.
-	@Test (priority = 2,groups = "FT", dataProvider = "orderNameData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 1,groups = "FT", dataProvider = "orderNameData", dataProviderClass = DataProviderUtility.class)
 	public void FTC01(String newname) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -42,7 +42,7 @@ public class PurchaseOrderTest extends BaseClass{
 	}
 	
 	//Verify that the Purchase Order search works using PurchaseOrder Name
-	@Test (priority = 1,groups = "FT", dataProvider = "orderNameData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 2,groups = "FT", dataProvider = "orderNameData", dataProviderClass = DataProviderUtility.class)
 	public void FTC02(String newname) throws Exception {
 		login();
 		HomePage h = new HomePage(d);

@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="inventory_vtiger_services.ServicesTest">
+      <class name="inventory_vtiger_purchaseOrder.PurchaseOrderTest">
         <methods>
           <include name="ac"/>
           <include name="bt"/>
@@ -11,9 +11,9 @@
           <include name="at"/>
           <include name="bc"/>
           <include name="bs"/>
-          <include name="RTC02" invocation-numbers="0"/>
+          <include name="FTC02" invocation-numbers="0"/>
         </methods>
-      </class> <!-- inventory_vtiger_services.ServicesTest -->
+      </class> <!-- inventory_vtiger_purchaseOrder.PurchaseOrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
