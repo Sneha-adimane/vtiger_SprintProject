@@ -31,7 +31,7 @@ public class LoginPage {
 	@FindBy(css = "[class='errorMessage']")
 	private WebElement message;
 	
-	// Store the entered username and password for reporting
+	// Store the entered user name and password for reporting
 	private String Username;
 	private String Password;
 
@@ -56,7 +56,7 @@ public class LoginPage {
 		Reporter.log("Login Successful", true);
 	}
 	
-	// Perform login using the given username and password
+	// Perform login using the given user name and password
 	public void login(String username, String password) {
 	    getUn(username);
 	    getPw(password);
@@ -73,6 +73,4 @@ public class LoginPage {
 		Reporter.log("Password: " + Password,true);
 		Reporter.log("Error Message: " + actualMessage,true);    
 	}
-	
-	
 }

@@ -236,7 +236,7 @@ public class DataProviderUtility {
 	
 	@DataProvider(name = "vendorNameData")
 	public Object[][] vendorNameData() {
-	    return new Object[][] {{"Updated_new_vendor"}};
+	    return new Object[][] {{"new_vendor"}};
 	}
 	
 	@DataProvider(name = "AssetNameData")

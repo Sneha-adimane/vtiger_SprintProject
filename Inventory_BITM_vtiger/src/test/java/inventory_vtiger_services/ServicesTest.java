@@ -221,7 +221,7 @@ public class ServicesTest extends BaseClass {
 	}
 
 	//Verify that the Active field's saved value is retained after editing and reopening the service.
-	@Test (priority = 11,groups = "ST")
+	@Test (priority = 12,groups = "ST")
 	public void STC02() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -239,7 +239,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that editing one service does not modify another service's details.
-	@Test(priority = 12,groups = "RT",dataProvider = "serviceIsolationData",dataProviderClass = DataProviderUtility.class)
+	@Test(priority = 11,groups = "RT",dataProvider = "serviceIsolationData",dataProviderClass = DataProviderUtility.class)
 	public void RTC01(String firstService,String secondService,String updatedDescription) throws Exception {
 		login();
 	    HomePage h = new HomePage(d);

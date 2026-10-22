@@ -17,22 +17,22 @@
       <![CDATA[Login Successful]]>
     </line>
     <line>
-      <![CDATA[Purchase page is displayed]]>
+      <![CDATA[Services page is displayed]]>
     </line>
     <line>
-      <![CDATA[updated name is displayed]]>
+      <![CDATA[Created Service No: SER207]]>
     </line>
     <line>
-      <![CDATA[Edited Order name: New_Order]]>
+      <![CDATA[Searching Service No: SER207]]>
     </line>
     <line>
-      <![CDATA[Edited Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del]]>
+      <![CDATA[Service opened successfully: Website Development]]>
     </line>
     <line>
-      <![CDATA[Records are displayed for particular search]]>
+      <![CDATA[Service creation and search workflow completed]]>
     </line>
     <line>
-      <![CDATA[Searched Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del]]>
+      <![CDATA[Signout is successful]]>
     </line>
     <line>
       <![CDATA[Test completed]]>
@@ -47,29 +47,29 @@
       <![CDATA[Close Database connectivity]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-22T18:06:50 IST" name="Default suite" finished-at="2026-10-22T18:07:42 IST" duration-ms="52494">
+  <suite started-at="2026-10-22T20:40:33 IST" name="Default suite" finished-at="2026-10-22T20:43:09 IST" duration-ms="156372">
     <groups>
-      <group name="FT">
-        <method signature="PurchaseOrderTest.FTC02(java.lang.String)[pri:2, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" name="FTC02" class="inventory_vtiger_purchaseOrder.PurchaseOrderTest"/>
-      </group> <!-- FT -->
+      <group name="ST">
+        <method signature="ServicesTest.STC01(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:inventory_vtiger_services.ServicesTest@c730b35]" name="STC01" class="inventory_vtiger_services.ServicesTest"/>
+      </group> <!-- ST -->
     </groups>
-    <test started-at="2026-10-22T18:06:50 IST" name="Default test" finished-at="2026-10-22T18:07:42 IST" duration-ms="52494">
-      <class name="inventory_vtiger_purchaseOrder.PurchaseOrderTest">
-        <test-method is-config="true" signature="bs()[pri:0, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" started-at="2026-10-22T18:06:50 IST" name="bs" finished-at="2026-10-22T18:06:50 IST" duration-ms="9" status="PASS">
+    <test started-at="2026-10-22T20:40:33 IST" name="Default test" finished-at="2026-10-22T20:43:09 IST" duration-ms="156372">
+      <class name="inventory_vtiger_services.ServicesTest">
+        <test-method is-config="true" signature="bs()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:40:33 IST" name="bs" finished-at="2026-10-22T20:40:33 IST" duration-ms="11" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Database]]>
             </line>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" started-at="2026-10-22T18:06:50 IST" name="bt" finished-at="2026-10-22T18:06:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:40:33 IST" name="bt" finished-at="2026-10-22T20:40:33 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PreCondition]]>
             </line>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" started-at="2026-10-22T18:06:50 IST" name="bc" finished-at="2026-10-22T18:06:54 IST" duration-ms="4409" status="PASS">
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:40:34 IST" name="bc" finished-at="2026-10-22T20:41:08 IST" duration-ms="33933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method signature="FTC02(java.lang.String)[pri:2, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" started-at="2026-10-22T18:06:54 IST" name="FTC02" data-provider="orderNameData" finished-at="2026-10-22T18:07:42 IST" duration-ms="47838" status="PASS">
+        <test-method signature="STC01(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:41:08 IST" name="STC01" data-provider="serviceWorkflowData" finished-at="2026-10-22T20:43:09 IST" duration-ms="121201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[New_Order]]>
+                <![CDATA[Website Development]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
               </value>
             </param>
           </params>
@@ -99,26 +109,26 @@
               <![CDATA[Login Successful]]>
             </line>
             <line>
-              <![CDATA[Purchase page is displayed]]>
+              <![CDATA[Services page is displayed]]>
             </line>
             <line>
-              <![CDATA[updated name is displayed]]>
+              <![CDATA[Created Service No: SER207]]>
             </line>
             <line>
-              <![CDATA[Edited Order name: New_Order]]>
+              <![CDATA[Searching Service No: SER207]]>
             </line>
             <line>
-              <![CDATA[Edited Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del]]>
+              <![CDATA[Service opened successfully: Website Development]]>
             </line>
             <line>
-              <![CDATA[Records are displayed for particular search]]>
+              <![CDATA[Service creation and search workflow completed]]>
             </line>
             <line>
-              <![CDATA[Searched Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del]]>
+              <![CDATA[Signout is successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FTC02 -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" started-at="2026-10-22T18:07:42 IST" name="ac" finished-at="2026-10-22T18:07:42 IST" duration-ms="198" status="PASS">
+        </test-method> <!-- STC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:43:09 IST" name="ac" finished-at="2026-10-22T20:43:09 IST" duration-ms="323" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test completed]]>
@@ -128,21 +138,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" started-at="2026-10-22T18:07:42 IST" name="at" finished-at="2026-10-22T18:07:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:43:09 IST" name="at" finished-at="2026-10-22T20:43:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PostCondition]]>
             </line>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:inventory_vtiger_purchaseOrder.PurchaseOrderTest@175c2241]" started-at="2026-10-22T18:07:42 IST" name="as" finished-at="2026-10-22T18:07:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:43:09 IST" name="as" finished-at="2026-10-22T20:43:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Database connectivity]]>
             </line>
           </reporter-output>
         </test-method> <!-- as -->
-      </class> <!-- inventory_vtiger_purchaseOrder.PurchaseOrderTest -->
+      </class> <!-- inventory_vtiger_services.ServicesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
