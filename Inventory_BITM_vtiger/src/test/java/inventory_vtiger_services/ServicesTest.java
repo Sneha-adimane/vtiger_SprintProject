@@ -15,7 +15,7 @@ import Object_repo.ServicesPage;
 public class ServicesTest extends BaseClass {
 
 	//Verify that the Services list page opens successfully.
-	@Test (groups = "Smoke")
+	@Test (priority = 1,groups = "Smoke")
 	public void TC01() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -27,7 +27,7 @@ public class ServicesTest extends BaseClass {
 	}
 
 	//Verify that the Add Service form opens successfully.
-	@Test (groups = "Smoke")
+	@Test (priority = 2,groups = "Smoke")
 	public void TC02() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -39,7 +39,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that a service can be created with valid details.
-	@Test (groups = "FT" , dataProvider = "getServiceData" , dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 3,groups = "FT" , dataProvider = "getServiceData" , dataProviderClass = DataProviderUtility.class)
 	public void FTC01(String servicename, int price , int no_of_units) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -59,7 +59,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that an existing service's details can be updated.
-	@Test (groups = "FT" , dataProvider = "getServiceUpdateData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 5,groups = "FT" , dataProvider = "getServiceUpdateData", dataProviderClass = DataProviderUtility.class)
 	public void FTC02(String serviceName,String updatedDescription) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -74,7 +74,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that services can be searched using the Service No field.
-	@Test (groups = "FT")
+	@Test (priority = 4,groups = "FT")
 	public void FTC03() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -88,7 +88,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify validation of the No. of Units field at its numeric boundaries.
-	@Test( groups = "FT" , dataProvider = "serviceData", dataProviderClass = DataProviderUtility.class)
+	@Test(priority = 6,groups = "FT" , dataProvider = "serviceData", dataProviderClass = DataProviderUtility.class)
 	public void FTC04(String serviceName,String minimumValue,String zeroValue,String negativeValue) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -114,7 +114,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that a service can be used to create a Quote.
-	@Test (groups = "IT" , dataProvider = "quoteData" , dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 7,groups = "IT" , dataProvider = "quoteData" , dataProviderClass = DataProviderUtility.class)
 	public void ITC01(String Subject , String Valid_Till, String Billing_Address, String Shipping_Address,String Terms, String Desc, String Qty, String Price) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -142,7 +142,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that a service can be used to create a Sales Order.
-	@Test(groups = "IT",dataProvider = "quoteData" , dataProviderClass = DataProviderUtility.class)
+	@Test(priority = 8,groups = "IT",dataProvider = "quoteData" , dataProviderClass = DataProviderUtility.class)
 	public void ITC02(String Subject , String Date, String Billing_Address, String Shipping_Address,String Terms, String Desc, String Qty, String Price) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -171,7 +171,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that a service can be used to create a Purchase Order.
-	@Test (groups = "IT",dataProvider = "quoteData" , dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 9,groups = "IT",dataProvider = "quoteData" , dataProviderClass = DataProviderUtility.class)
 	public void ITC03(String Subject , String Date, String Billing_Address, String Shipping_Address,String Terms, String Desc, String Qty, String Price) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -199,7 +199,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify the complete service creation, search, and detail-view workflow.
-	@Test(groups = "ST", dataProvider = "serviceWorkflowData", dataProviderClass = DataProviderUtility.class)
+	@Test(priority = 10,groups = "ST", dataProvider = "serviceWorkflowData", dataProviderClass = DataProviderUtility.class)
 	public void STC01(String serviceName, String price, String noOfUnits) throws Exception {
 	    login();
 	    HomePage h = new HomePage(d);
@@ -221,7 +221,7 @@ public class ServicesTest extends BaseClass {
 	}
 
 	//Verify that the Active field's saved value is retained after editing and reopening the service.
-	@Test (groups = "ST")
+	@Test (priority = 11,groups = "ST")
 	public void STC02() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -239,7 +239,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that editing one service does not modify another service's details.
-	@Test(groups = "RT",dataProvider = "serviceIsolationData",dataProviderClass = DataProviderUtility.class)
+	@Test(priority = 12,groups = "RT",dataProvider = "serviceIsolationData",dataProviderClass = DataProviderUtility.class)
 	public void RTC01(String firstService,String secondService,String updatedDescription) throws Exception {
 		login();
 	    HomePage h = new HomePage(d);
@@ -266,7 +266,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that service search works correctly after updating a service name.
-	@Test(groups = "RT",dataProvider = "serviceRenameData",dataProviderClass = DataProviderUtility.class)
+	@Test(priority = 13,groups = "RT",dataProvider = "serviceRenameData",dataProviderClass = DataProviderUtility.class)
 	public void RTC02(String originalServiceName,String updatedServiceName) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -284,7 +284,7 @@ public class ServicesTest extends BaseClass {
 	} 
 	
 	//Verify that a service cannot be saved when its mandatory Service Name is blank.
-	@Test (groups = {"FT","Neg"}, dataProvider = "serviceWorkflowData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 14,groups = {"FT","Neg"}, dataProvider = "serviceWorkflowData", dataProviderClass = DataProviderUtility.class)
 	public void NTC01(String serviceName, String price, String noOfUnits) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -301,7 +301,7 @@ public class ServicesTest extends BaseClass {
 	}
 	
 	//Verify that negative values are handled correctly in the Price ($) field.
-	@Test (groups = {"FT","Neg"}, dataProvider = "serviceWorkflowData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 15,groups = {"FT","Neg"}, dataProvider = "serviceWorkflowData", dataProviderClass = DataProviderUtility.class)
 	public void NTC02(String serviceName, String price, String noOfUnits) throws Exception {
 		login();
 		HomePage h = new HomePage(d);

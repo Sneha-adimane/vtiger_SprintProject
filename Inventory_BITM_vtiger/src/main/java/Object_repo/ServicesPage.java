@@ -158,8 +158,7 @@ public class ServicesPage {
 	}
 	
 	public void getServiceslink() throws InterruptedException {
-		By servicesLocator =By.xpath("serviceslink");
-		e.waitForElementVisible(servicesLocator);
+		e.waitForElementVisible(serviceslink);
 		serviceslink.click();
 		Thread.sleep(2000);
 	}

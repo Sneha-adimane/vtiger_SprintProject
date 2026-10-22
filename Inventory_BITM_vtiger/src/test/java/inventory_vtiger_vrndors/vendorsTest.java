@@ -12,7 +12,7 @@ import Object_repo.VendorPage;
 public class vendorsTest extends BaseClass{
 
 	//verify vendors page
-	@Test (groups = "Smoke")
+	@Test (priority = 1,groups = "Smoke")
 	public void STC01() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -22,7 +22,7 @@ public class vendorsTest extends BaseClass{
 	}
 
 	//Verify that an existing vendor name can be edited.
-	@Test (groups = "FT", dataProvider = "vendorNameData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 3,groups = "FT", dataProvider = "vendorNameData", dataProviderClass = DataProviderUtility.class)
 	public void FTC01(String newName) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -43,7 +43,7 @@ public class vendorsTest extends BaseClass{
 	}
 	
 	//Verify that vendor records can be searched using Vendor Name.
-	@Test (groups = "FT", dataProvider = "vendorNameData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 2,groups = "FT", dataProvider = "vendorNameData", dataProviderClass = DataProviderUtility.class)
 	public void FTC02(String newname) throws Exception {
 		login();
 		HomePage h = new HomePage(d);

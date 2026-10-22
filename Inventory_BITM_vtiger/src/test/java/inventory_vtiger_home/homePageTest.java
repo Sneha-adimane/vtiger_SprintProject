@@ -8,7 +8,7 @@ import Object_repo.HomePage;
 
 public class homePageTest extends BaseClass {
 
-	@Test(groups = "Smoke") 
+	@Test(priority = 1,groups = "Smoke") 
 	public void TC01() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -18,7 +18,7 @@ public class homePageTest extends BaseClass {
 		logout();
 	}
 	
-	@Test(groups = "FT")
+	@Test(priority = 2,groups = "FT")
 	public void TC02() throws Exception {
 		login();
 		HomePage h = new HomePage(d);

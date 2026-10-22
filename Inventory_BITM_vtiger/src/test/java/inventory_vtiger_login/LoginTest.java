@@ -12,7 +12,7 @@ import Object_repo.LoginPage;
 public class LoginTest extends BaseClass {
 	
 	//Verify that the user can log in and log out successfully
-	@Test(groups = {"Smoke,FT"})
+	@Test(priority = 1,groups = {"Smoke,FT"})
 	public void TC01() throws Exception {
 		login();
 		logout();

@@ -11,7 +11,7 @@ import Object_repo.HomePage;
 public class assetsTest extends BaseClass{
 
 	//verifying Critical feature
-	@Test (groups = "Smoke")
+	@Test (priority = 1,groups = "Smoke")
 	public void TC01() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -20,7 +20,7 @@ public class assetsTest extends BaseClass{
 	}
 	
 	//Verify that an asset can be searched using Asset No.
-	@Test (groups = "FT")
+	@Test (priority = 3,groups = "FT")
 	public void TC02() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -34,7 +34,7 @@ public class assetsTest extends BaseClass{
 	}
 	
 	//Verify that asset records are accessible through the More Information related-record sections.
-	@Test (groups = "IT")
+	@Test (priority = 4,groups = "IT")
 	public void TC03() throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -52,7 +52,7 @@ public class assetsTest extends BaseClass{
 	}
 	
 	//Verify that the complete asset creation workflow prevents saving an asset with an invalid Date Sold value.
-	@Test (groups = "ST" , dataProvider = "assetData" , dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 2,groups = "ST" , dataProvider = "assetData" , dataProviderClass = DataProviderUtility.class)
 	public void TC04(String serial, String dateSold , String AssetName , String dateInService) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
@@ -73,7 +73,7 @@ public class assetsTest extends BaseClass{
 	}
 	
 	//Verify that asset search works correctly after an asset's name is updated.
-	@Test (groups = "RT",dataProvider = "AssetNameData", dataProviderClass = DataProviderUtility.class)
+	@Test (priority = 5,groups = "RT",dataProvider = "AssetNameData", dataProviderClass = DataProviderUtility.class)
 	public void TC05(String AssetNewName) throws Exception {
 		login();
 		HomePage h = new HomePage(d);
