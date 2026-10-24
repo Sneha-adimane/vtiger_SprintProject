@@ -1,4 +1,4 @@
-package Object_repo;
+package Pom_utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

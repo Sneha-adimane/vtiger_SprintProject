@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 import BaseClass_Utility.BaseClass;
 import Genric_Utility.DataProviderUtility;
 import Genric_Utility.ScreenshotUtility;
-import Object_repo.HomePage;
-import Object_repo.PurchaseOrderPage;
-import Object_repo.QuotePage;
-import Object_repo.SalesOrderPage;
-import Object_repo.ServicesPage;
+import Pom_utilities.HomePage;
+import Pom_utilities.PurchaseOrderPage;
+import Pom_utilities.QuotePage;
+import Pom_utilities.SalesOrderPage;
+import Pom_utilities.ServicesPage;
 
 public class ServicesTest extends BaseClass {
 

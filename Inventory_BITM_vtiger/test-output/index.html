@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--285438140\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1189651769\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="inventory_vtiger_services.ServicesTest" class="method navigator-link" hash-for-method="STC01(Website Development, 25000, 1)">STC01(Website Development, 25000, 1)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="inventory_vtiger_vrndors.vendorsTest" class="method navigator-link" hash-for-method="FTC01(new_vendor)">FTC01(new_vendor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="inventory_vtiger_vrndors.vendorsTest" class="method navigator-link" hash-for-method="FTC02(new_vendor)">FTC02(new_vendor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="inventory_vtiger_vrndors.vendorsTest" class="method navigator-link" hash-for-method="STC01">STC01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,15 +131,30 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">inventory_vtiger_services.ServicesTest</span>
+              <span class="class-name">inventory_vtiger_vrndors.vendorsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="STC01(Website Development, 25000, 1)">
-                  </a> <!-- STC01(Website Development, 25000, 1) -->
+                  <a name="FTC01(new_vendor)">
+                  </a> <!-- FTC01(new_vendor) -->
+                  <span class="method-name">FTC01</span>
+                  <span class="parameters">(new_vendor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FTC02(new_vendor)">
+                  </a> <!-- FTC02(new_vendor) -->
+                  <span class="method-name">FTC02</span>
+                  <span class="parameters">(new_vendor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="STC01">
+                  </a> <!-- STC01 -->
                   <span class="method-name">STC01</span>
-                  <span class="parameters">(Website Development,25000,1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +162,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--285438140\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1189651769\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,11 +171,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;inventory_vtiger_services.ServicesTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;STC01&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- inventory_vtiger_services.ServicesTest --&gt;
+      &lt;class name=&quot;inventory_vtiger_vrndors.vendorsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -175,7 +196,19 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">ST</span>
+              <span class="test-group-name">FT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FTC01</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FTC02</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">STC01</span>
@@ -198,11 +231,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'STC01')
-data.setCell(0, 2, 'inventory_vtiger_services.ServicesTest')
-data.setCell(0, 3, 121201);
+data.setCell(0, 1, 'FTC01')
+data.setCell(0, 2, 'inventory_vtiger_vrndors.vendorsTest')
+data.setCell(0, 3, 46818);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FTC02')
+data.setCell(1, 2, 'inventory_vtiger_vrndors.vendorsTest')
+data.setCell(1, 3, 41261);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'STC01')
+data.setCell(2, 2, 'inventory_vtiger_vrndors.vendorsTest')
+data.setCell(2, 3, 39205);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -219,57 +260,44 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">STC01(Website Development, 25000, 1)</span>
+              <span class="reporter-method-name">FTC01(new_vendor)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Login Successful</span>
-                <span class="reporter-method-output">Services page is displayed</span>
-                <span class="reporter-method-output">Created Service No: SER207</span>
-                <span class="reporter-method-output">Searching Service No: SER207</span>
-                <span class="reporter-method-output">Service opened successfully: Website Development</span>
-                <span class="reporter-method-output">Service creation and search workflow completed</span>
+                <span class="reporter-method-output">Vendors page is displayed</span>
+                <span class="reporter-method-output">updated name is displayed</span>
+                <span class="reporter-method-output">Edited Order name: new_vendor</span>
+                <span class="reporter-method-output">Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del</span>
+                <span class="reporter-method-output">Records are displayed for particular search</span>
+                <span class="reporter-method-output">Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">STC01</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Successful</span>
+                <span class="reporter-method-output">Vendors page is displayed</span>
                 <span class="reporter-method-output">Signout is successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FTC02(new_vendor)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Successful</span>
+                <span class="reporter-method-output">Vendors page is displayed</span>
+                <span class="reporter-method-output">updated name is displayed</span>
+                <span class="reporter-method-output">Edited Order name: new_vendor</span>
+                <span class="reporter-method-output">Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del</span>
+                <span class="reporter-method-output">Records are displayed for particular search</span>
+                <span class="reporter-method-output">Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">14 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">inventory_vtiger_services.ServicesTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">NTC02</span>
-                <br/>
-                <span class="ignored-method-name">NTC01</span>
-                <br/>
-                <span class="ignored-method-name">FTC01</span>
-                <br/>
-                <span class="ignored-method-name">FTC02</span>
-                <br/>
-                <span class="ignored-method-name">STC02</span>
-                <br/>
-                <span class="ignored-method-name">ITC02</span>
-                <br/>
-                <span class="ignored-method-name">RTC02</span>
-                <br/>
-                <span class="ignored-method-name">FTC03</span>
-                <br/>
-                <span class="ignored-method-name">ITC01</span>
-                <br/>
-                <span class="ignored-method-name">FTC04</span>
-                <br/>
-                <span class="ignored-method-name">ITC03</span>
-                <br/>
-                <span class="ignored-method-name">TC01</span>
-                <br/>
-                <span class="ignored-method-name">TC02</span>
-                <br/>
-                <span class="ignored-method-name">RTC01</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -278,34 +306,58 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">inventory_vtiger_services.ServicesTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">inventory_vtiger_vrndors.vendorsTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">bs</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">bt</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">bc(chrome)</span>
-                <span class="method-start">914 ms</span>
+                <span class="method-start">46 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">STC01(Website Development, 25000, 1)</span>
-                <span class="method-start">34848 ms</span>
+                <span class="method-name">STC01</span>
+                <span class="method-start">4099 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ac</span>
-                <span class="method-start">156052 ms</span>
+                <span class="method-start">43311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bc(chrome)</span>
+                <span class="method-start">43581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FTC02(new_vendor)</span>
+                <span class="method-start">47244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ac</span>
+                <span class="method-start">88509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bc(chrome)</span>
+                <span class="method-start">88688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FTC01(new_vendor)</span>
+                <span class="method-start">92304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ac</span>
+                <span class="method-start">139124 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">at</span>
-                <span class="method-start">156383 ms</span>
+                <span class="method-start">139318 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">as</span>
-                <span class="method-start">156436 ms</span>
+                <span class="method-start">139442 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import BaseClass_Utility.BaseClass;
 import Genric_Utility.DataProviderUtility;
 import Genric_Utility.ScreenshotUtility;
-import Object_repo.LoginPage;
+import Pom_utilities.LoginPage;
 
 
 public class LoginTest extends BaseClass {

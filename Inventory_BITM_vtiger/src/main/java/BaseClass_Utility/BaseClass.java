@@ -17,8 +17,8 @@ import org.testng.annotations.Parameters;
 
 import Genric_Utility.PropertyFile;
 import Genric_Utility.WebDriver_utility;
-import Object_repo.LoginPage;
-import Object_repo.LogoutPage;
+import Pom_utilities.LoginPage;
+import Pom_utilities.LogoutPage;
 
 public class BaseClass {
 

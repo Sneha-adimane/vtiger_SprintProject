@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 import BaseClass_Utility.BaseClass;
 import Genric_Utility.DataProviderUtility;
 import Genric_Utility.ScreenshotUtility;
-import Object_repo.AssetsPage;
-import Object_repo.HomePage;
+import Pom_utilities.AssetsPage;
+import Pom_utilities.HomePage;
 
 public class assetsTest extends BaseClass{
 

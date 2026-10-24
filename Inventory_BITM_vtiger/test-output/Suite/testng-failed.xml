@@ -3,6 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="inventory_vtiger_vrndors.vendorsTest">
+        <methods>
+          <include name="ac"/>
+          <include name="bt"/>
+          <include name="as"/>
+          <include name="at"/>
+          <include name="bc"/>
+          <include name="bs"/>
+          <include name="FTC01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- inventory_vtiger_vrndors.vendorsTest -->
       <class name="inventory_vtiger_services.ServicesTest">
         <methods>
           <include name="ac"/>
@@ -11,20 +22,9 @@
           <include name="at"/>
           <include name="bc"/>
           <include name="bs"/>
-          <include name="RTC02" invocation-numbers="0"/>
+          <include name="FTC04" invocation-numbers="0"/>
         </methods>
       </class> <!-- inventory_vtiger_services.ServicesTest -->
-      <class name="inventory_vtiger_assets.assetsTest">
-        <methods>
-          <include name="bt"/>
-          <include name="ac"/>
-          <include name="as"/>
-          <include name="at"/>
-          <include name="bc"/>
-          <include name="bs"/>
-          <include name="TC03"/>
-        </methods>
-      </class> <!-- inventory_vtiger_assets.assetsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

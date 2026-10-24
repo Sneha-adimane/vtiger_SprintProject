@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import BaseClass_Utility.BaseClass;
 import Genric_Utility.ScreenshotUtility;
-import Object_repo.HomePage;
+import Pom_utilities.HomePage;
 
 public class homePageTest extends BaseClass {
 

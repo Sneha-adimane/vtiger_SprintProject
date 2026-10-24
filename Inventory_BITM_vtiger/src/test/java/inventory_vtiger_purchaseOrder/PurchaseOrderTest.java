@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 import BaseClass_Utility.BaseClass;
 import Genric_Utility.DataProviderUtility;
 import Genric_Utility.ScreenshotUtility;
-import Object_repo.HomePage;
-import Object_repo.PurchaseOrderPage;
+import Pom_utilities.HomePage;
+import Pom_utilities.PurchaseOrderPage;
 
 public class PurchaseOrderTest extends BaseClass{
 	

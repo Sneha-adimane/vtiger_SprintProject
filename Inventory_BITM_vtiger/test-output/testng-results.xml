@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Open Database]]>
@@ -17,22 +17,76 @@
       <![CDATA[Login Successful]]>
     </line>
     <line>
-      <![CDATA[Services page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Created Service No: SER207]]>
-    </line>
-    <line>
-      <![CDATA[Searching Service No: SER207]]>
-    </line>
-    <line>
-      <![CDATA[Service opened successfully: Website Development]]>
-    </line>
-    <line>
-      <![CDATA[Service creation and search workflow completed]]>
+      <![CDATA[Vendors page is displayed]]>
     </line>
     <line>
       <![CDATA[Signout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Vendors page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[updated name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Edited Order name: new_vendor]]>
+    </line>
+    <line>
+      <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Records are displayed for particular search]]>
+    </line>
+    <line>
+      <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Vendors page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[updated name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Edited Order name: new_vendor]]>
+    </line>
+    <line>
+      <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
+    </line>
+    <line>
+      <![CDATA[Records are displayed for particular search]]>
+    </line>
+    <line>
+      <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
     </line>
     <line>
       <![CDATA[Test completed]]>
@@ -47,29 +101,33 @@
       <![CDATA[Close Database connectivity]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-22T20:40:33 IST" name="Default suite" finished-at="2026-10-22T20:43:09 IST" duration-ms="156372">
+  <suite started-at="2026-10-23T10:37:22 IST" name="Default suite" finished-at="2026-10-23T10:39:41 IST" duration-ms="139310">
     <groups>
-      <group name="ST">
-        <method signature="ServicesTest.STC01(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:inventory_vtiger_services.ServicesTest@c730b35]" name="STC01" class="inventory_vtiger_services.ServicesTest"/>
-      </group> <!-- ST -->
+      <group name="Smoke">
+        <method signature="vendorsTest.STC01()[pri:1, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" name="STC01" class="inventory_vtiger_vrndors.vendorsTest"/>
+      </group> <!-- Smoke -->
+      <group name="FT">
+        <method signature="vendorsTest.FTC02(java.lang.String)[pri:2, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" name="FTC02" class="inventory_vtiger_vrndors.vendorsTest"/>
+        <method signature="vendorsTest.FTC01(java.lang.String)[pri:3, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" name="FTC01" class="inventory_vtiger_vrndors.vendorsTest"/>
+      </group> <!-- FT -->
     </groups>
-    <test started-at="2026-10-22T20:40:33 IST" name="Default test" finished-at="2026-10-22T20:43:09 IST" duration-ms="156372">
-      <class name="inventory_vtiger_services.ServicesTest">
-        <test-method is-config="true" signature="bs()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:40:33 IST" name="bs" finished-at="2026-10-22T20:40:33 IST" duration-ms="11" status="PASS">
+    <test started-at="2026-10-23T10:37:22 IST" name="Default test" finished-at="2026-10-23T10:39:41 IST" duration-ms="139310">
+      <class name="inventory_vtiger_vrndors.vendorsTest">
+        <test-method is-config="true" signature="bs()[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:37:22 IST" name="bs" finished-at="2026-10-23T10:37:22 IST" duration-ms="9" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Database]]>
             </line>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:40:33 IST" name="bt" finished-at="2026-10-22T20:40:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:37:22 IST" name="bt" finished-at="2026-10-23T10:37:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PreCondition]]>
             </line>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:40:34 IST" name="bc" finished-at="2026-10-22T20:41:08 IST" duration-ms="33933" status="PASS">
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:37:22 IST" name="bc" finished-at="2026-10-23T10:37:26 IST" duration-ms="4050" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,49 +144,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method signature="STC01(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:41:08 IST" name="STC01" data-provider="serviceWorkflowData" finished-at="2026-10-22T20:43:09 IST" duration-ms="121201" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Website Development]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[25000]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="STC01()[pri:1, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:37:26 IST" name="STC01" finished-at="2026-10-23T10:38:05 IST" duration-ms="39205" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Successful]]>
             </line>
             <line>
-              <![CDATA[Services page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Created Service No: SER207]]>
-            </line>
-            <line>
-              <![CDATA[Searching Service No: SER207]]>
-            </line>
-            <line>
-              <![CDATA[Service opened successfully: Website Development]]>
-            </line>
-            <line>
-              <![CDATA[Service creation and search workflow completed]]>
+              <![CDATA[Vendors page is displayed]]>
             </line>
             <line>
               <![CDATA[Signout is successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- STC01 -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:43:09 IST" name="ac" finished-at="2026-10-22T20:43:09 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:38:05 IST" name="ac" finished-at="2026-10-23T10:38:05 IST" duration-ms="259" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test completed]]>
@@ -138,21 +167,139 @@
             </line>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:43:09 IST" name="at" finished-at="2026-10-22T20:43:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:38:05 IST" name="bc" finished-at="2026-10-23T10:38:09 IST" duration-ms="3663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC02(java.lang.String)[pri:2, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:38:09 IST" name="FTC02" data-provider="vendorNameData" finished-at="2026-10-23T10:38:50 IST" duration-ms="41261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new_vendor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Vendors page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[updated name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Edited Order name: new_vendor]]>
+            </line>
+            <line>
+              <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
+            </line>
+            <line>
+              <![CDATA[Records are displayed for particular search]]>
+            </line>
+            <line>
+              <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC02 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:38:50 IST" name="ac" finished-at="2026-10-23T10:38:50 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:38:50 IST" name="bc" finished-at="2026-10-23T10:38:54 IST" duration-ms="3615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method signature="FTC01(java.lang.String)[pri:3, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:38:54 IST" name="FTC01" data-provider="vendorNameData" finished-at="2026-10-23T10:39:41 IST" duration-ms="46818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new_vendor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Vendors page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[updated name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Edited Order name: new_vendor]]>
+            </line>
+            <line>
+              <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
+            </line>
+            <line>
+              <![CDATA[Records are displayed for particular search]]>
+            </line>
+            <line>
+              <![CDATA[Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FTC01 -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:39:41 IST" name="ac" finished-at="2026-10-23T10:39:41 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:39:41 IST" name="at" finished-at="2026-10-23T10:39:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PostCondition]]>
             </line>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:inventory_vtiger_services.ServicesTest@c730b35]" started-at="2026-10-22T20:43:09 IST" name="as" finished-at="2026-10-22T20:43:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:inventory_vtiger_vrndors.vendorsTest@28701274]" started-at="2026-10-23T10:39:41 IST" name="as" finished-at="2026-10-23T10:39:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Database connectivity]]>
             </line>
           </reporter-output>
         </test-method> <!-- as -->
-      </class> <!-- inventory_vtiger_services.ServicesTest -->
+      </class> <!-- inventory_vtiger_vrndors.vendorsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

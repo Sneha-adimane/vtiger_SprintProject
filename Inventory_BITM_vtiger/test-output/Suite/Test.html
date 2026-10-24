@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>38/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 22 11:23:32 IST 2026</td>
+<td>Started on:</td><td>Fri Oct 23 08:22:41 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>1972 seconds (1972856 ms)</td>
+<tr><td>Total time:</td><td>1859 seconds (1859099 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,172 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC04()'><b>FTC04</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, 1, 0, -1<br/>
+<a href="#Output-1144558478" onClick='toggleBox("Output-1144558478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1144558478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1144558478">
+Login Successful<br/>
+Services page is displayed<br/>
+Service opened successfully: Data Entry<br/>
+One units value verified successfully:<br/>
+Actual Units: 1.00<br/>
+Zero units value verified successfully:<br/>
+Actual Units: <br/>
+Alert message displayed: Support Expiry Date should be greater than or equal to Start Date<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Incorrect validation message expected [Invalid No of Units] but found [Support Expiry Date should be greater than or equal to Start Date]
+	at Object_repo.ServicesPage.verifyInvalidUnits(ServicesPage.java:263)
+	at inventory_vtiger_services.ServicesTest.FTC04(ServicesTest.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1144558478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1144558478'><pre>java.lang.AssertionError: Incorrect validation message expected [Invalid No of Units] but found [Support Expiry Date should be greater than or equal to Start Date]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at Object_repo.ServicesPage.verifyInvalidUnits(ServicesPage.java:263)
+	at inventory_vtiger_services.ServicesTest.FTC04(ServicesTest.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>54</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_vrndors.vendorsTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_vrndors.vendorsTest<br>Parameters: new_vendor<br/>
+<a href="#Output-1354033192" onClick='toggleBox("Output-1354033192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1354033192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1354033192">
+Login Successful<br/>
+Vendors page is displayed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d89340a535e8a1435a8668f051faac63, isElementDisplayed {id=f.2150DDF1AEC40AD1D9C887CE74F80193.d.461FD3453476D597C1E85076076BC2BB.e.7549}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63681}, goog:processID: 26960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63681/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d89340a535e8a1435a8668f051faac63)] -&gt; name: vendorname]
+Session ID: d89340a535e8a1435a8668f051faac63
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at Genric_Utility.ExplicitWait_utility.waitForElementVisible(ExplicitWait_utility.java:22)
+	at Object_repo.VendorPage.getvendorName(VendorPage.java:57)
+	at inventory_vtiger_vrndors.vendorsTest.FTC01(vendorsTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1354033192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1354033192'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d89340a535e8a1435a8668f051faac63, isElementDisplayed {id=f.2150DDF1AEC40AD1D9C887CE74F80193.d.461FD3453476D597C1E85076076BC2BB.e.7549}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63681}, goog:processID: 26960, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63681/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d89340a535e8a1435a8668f051faac63)] -&gt; name: vendorname]
+Session ID: d89340a535e8a1435a8668f051faac63
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:284)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:365)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:351)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:348)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at Genric_Utility.ExplicitWait_utility.waitForElementVisible(ExplicitWait_utility.java:22)
+	at Object_repo.VendorPage.getvendorName(VendorPage.java:57)
+	at inventory_vtiger_vrndors.vendorsTest.FTC01(vendorsTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>42</td>
+<td>inventory_vtiger_vrndors.vendorsTest@327514f</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,30 +242,27 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='inventory_vtiger_home.homePageTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_home.homePageTest<br/>
-<a href="#Output-1760082859" onClick='toggleBox("Output-1760082859", this, "Show output", "Hide output");'>Show output</a>
+<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: hsdb, <br/>
+<a href="#Output-1963323207" onClick='toggleBox("Output-1963323207", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1760082859" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1760082859">
+<a href="#Output-1963323207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1963323207">
 Login Successful<br/>
-Home Page is diaplayed<br/>
-Services page is displayed<br/>
-Assets page is displayed<br/>
-Purchase page is displayed<br/>
-Price page is displayed<br/>
-Vendors page is displayed<br/>
-Signout is successful<br/>
+Username: hsdb<br/>
+Password: <br/>
+Error Message: You must specify a valid username and password.<br/>
+Invalid login validation completed<br/>
 </div>
 </td>
 <td></td>
-<td>49</td>
-<td>inventory_vtiger_home.homePageTest@6025e1b6</td></tr>
+<td>0</td>
+<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
 <tr>
 <td title='inventory_vtiger_services.ServicesTest.RTC02()'><b>RTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Quality Assurance, Software_new<br/>
-<a href="#Output-2114535884" onClick='toggleBox("Output-2114535884", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-618085457" onClick='toggleBox("Output-618085457", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2114535884" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2114535884">
+<a href="#Output-618085457" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-618085457">
 Login Successful<br/>
 Services page is displayed<br/>
 Service opened successfully: Software Quality Assurance<br/>
@@ -109,250 +272,14 @@ Signout is successful<br/>
 </div>
 </td>
 <td></td>
-<td>49</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_pricebook.PriceBookTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br>Parameters: Updated_new_PriceBook<br/>
-<a href="#Output-21635151" onClick='toggleBox("Output-21635151", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-21635151" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-21635151">
-Login Successful<br/>
-Price page is displayed<br/>
-updated name is displayed<br/>
-Edited Order name: Updated_new_PriceBook<br/>
-Edited Orders: PB159 Updated_new_PriceBook no India, Rupees edit | del<br/>
-Records are displayed for particular search<br/>
-Edited Orders: PB159 Updated_new_PriceBook no India, Rupees edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>65</td>
-<td>inventory_vtiger_pricebook.PriceBookTest@4c402120</td></tr>
-<tr>
-<td title='inventory_vtiger_assets.assetsTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
-<a href="#Output-564908963" onClick='toggleBox("Output-564908963", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-564908963" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-564908963">
-Login Successful<br/>
-Assets page is displayed<br/>
-</div>
-</td>
-<td></td>
-<td>36</td>
-<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
-<tr>
-<td title='inventory_vtiger_assets.assetsTest.TC03()'><b>TC03</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
-<a href="#Output-1558686575" onClick='toggleBox("Output-1558686575", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1558686575" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1558686575">
-Login Successful<br/>
-Assets page is displayed<br/>
-Showing Records 1 - 2 of 2   of 1     
-Ticket No Subject  Related To Status Priority Assigned To Action
-TT756 Indigo Flight Open Low ACOE Fireflink edit | del
-TT753 AutoTicket788 Open High ACOE Fireflink edit | del<br/>
-Showing Records 1 - 1 of 1   of 1     
-Title  File Name Modified Time Assigned To Folder Name Action
-ATekPyramidDocName QATest.txt 2026-07-01 07:47:00 ACOE Fireflink documents edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>45</td>
-<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
-<a href="#Output-1682828548" onClick='toggleBox("Output-1682828548", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1682828548" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1682828548">
-Login Successful<br/>
-Services page is displayed<br/>
-Services are available<br/>
-Service No Service Name Usage Unit Price No of Units Category Owner Action
-SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
-SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
-SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
-SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>47</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.STC03()'><b>STC03</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
-<a href="#Output-320919849" onClick='toggleBox("Output-320919849", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-320919849" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-320919849">
-Login Successful<br/>
-Purchase page is displayed<br/>
-Purchase page is displayed<br/>
-Records are displayed for particular search<br/>
-Searched Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO232 Updated Purchase Order SavexTechnologies_438 $600.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO233 Updated Purchase Order SavexTechnologies_3897 $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO234 SSD_BLK_PR_816 SavexTechnologies_628 $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO238 SSD_BLK_PR_1293 SavexTechnologies_4492 $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO243 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO248 Service Management Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO249 DP_Updated_PO_001 Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO254 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO255 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO258 Updated Purchase Order Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO342 System Test PO Updated_new_vendor $0.00 Sahu edit | del |<br/>
-Searched Orders: PO343 System Test PO Updated_new_vendor $0.00 Sahu edit | del |<br/>
-Searched Orders: PO344 System Test PO Updated_new_vendor $0.00 Sahu edit | del |<br/>
-Searched Orders: PO345 System Test PO Updated_new_vendor $0.00 Sahu edit | del |<br/>
-Searched Orders: PO346 System Test PO Updated_new_vendor $0.00 Sahu edit | del |<br/>
-Searched Orders: PO347 System Test PO Updated_new_vendor $0.00 Sahu edit | del |<br/>
-Searched Orders: PO348 Service Management Updated_new_vendor $25,025.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO349 Service Management Updated_new_vendor $0.00 ACOE Fireflink edit | del<br/>
-Searched Orders: PO350 Service Management Updated_new_vendor $25,025.00 ACOE Fireflink edit | del<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>74</td>
-<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@22ff4249</td></tr>
-<tr>
-<td title='inventory_vtiger_vrndors.vendorsTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_vrndors.vendorsTest<br>Parameters: Updated_new_vendor<br/>
-<a href="#Output-789082881" onClick='toggleBox("Output-789082881", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-789082881" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-789082881">
-Login Successful<br/>
-Vendors page is displayed<br/>
-updated name is displayed<br/>
-Edited Order name: Updated_new_vendor<br/>
-Edited Orders: VEN1877 Updated_new_vendor cd@nomail.com Morning edit | del<br/>
-Records are displayed for particular search<br/>
-Edited Orders: VEN1877 Updated_new_vendor cd@nomail.com Morning edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>49</td>
-<td>inventory_vtiger_vrndors.vendorsTest@327514f</td></tr>
-<tr>
-<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: hsdb, <br/>
-<a href="#Output-1907994677" onClick='toggleBox("Output-1907994677", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1907994677" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1907994677">
-Login Successful<br/>
-Username: hsdb<br/>
-Password: <br/>
-Error Message: You must specify a valid username and password.<br/>
-Invalid login validation completed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
-<tr>
-<td title='inventory_vtiger_home.homePageTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_home.homePageTest<br/>
-<a href="#Output-1150043970" onClick='toggleBox("Output-1150043970", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1150043970" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1150043970">
-Login Successful<br/>
-Home Page is diaplayed<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>39</td>
-<td>inventory_vtiger_home.homePageTest@6025e1b6</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
-<a href="#Output-2047744862" onClick='toggleBox("Output-2047744862", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2047744862" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2047744862">
-Login Successful<br/>
-Services page is displayed<br/>
-Creating page is displayed<br/>
-</div>
-</td>
-<td></td>
-<td>36</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.ITC03()'><b>ITC03</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
-<a href="#Output-1837163537" onClick='toggleBox("Output-1837163537", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1837163537" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1837163537">
-Login Successful<br/>
-Services page is displayed<br/>
-Order No Subject  Vendor Name Tracking Number Total Assigned To Action<br/>
-PO348 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO350 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO355 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO357 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO360 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO361 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO363 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO368 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO372 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO374 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO376 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO399 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO402 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO406 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO407 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO409 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO411 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO413 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO417 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-PO421 Service Management Updated_new_vendor $25,025.000 ACOE Fireflink edit<br/>
-</div>
-</td>
-<td></td>
-<td>51</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
-<a href="#Output-433545478" onClick='toggleBox("Output-433545478", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-433545478" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-433545478">
-Login Successful<br/>
-Services page is displayed<br/>
-Created Service No: SER207<br/>
-Searching Service No: SER207<br/>
-Service opened successfully: Website Development<br/>
-Service creation and search workflow completed<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>50</td>
+<td>48</td>
 <td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
 <tr>
 <td title='inventory_vtiger_assets.assetsTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
-<a href="#Output-1042555191" onClick='toggleBox("Output-1042555191", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1438120433" onClick='toggleBox("Output-1438120433", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1042555191" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1042555191">
+<a href="#Output-1438120433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1438120433">
 Login Successful<br/>
 Assets page is displayed<br/>
 Service No entered: jxhxij24<br/>
@@ -374,142 +301,11 @@ Edited Orders: jxhxij249 New_Assest01 SystemOrg1792577550098Updated Motor driver
 <td>40</td>
 <td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
 <tr>
-<td title='inventory_vtiger_services.ServicesTest.RTC01()'><b>RTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Quality Assurance, Website Development, Updated installation and configuration support<br/>
-<a href="#Output-1156336184" onClick='toggleBox("Output-1156336184", this, "Show output", "Hide output");'>Show output</a>
+<td title='inventory_vtiger_pricebook.PriceBookTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br>Parameters: Updated_new_PriceBook<br/>
+<a href="#Output-1388456901" onClick='toggleBox("Output-1388456901", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1156336184" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1156336184">
-Login Successful<br/>
-Services page is displayed<br/>
-Service opened successfully: Software Quality Assurance<br/>
-Service opened successfully: Website Development<br/>
-Service opened successfully: Software Quality Assurance<br/>
-Service opened successfully: Software Quality Assurance<br/>
-Original Description: Software installation and configuration support<br/>
-Updated Description: Updated installation and configuration support<br/>
-Service opened successfully: Website Development<br/>
-Service description verified successfully: Website development and maintenance support<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>64</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br/>
-<a href="#Output-1598381457" onClick='toggleBox("Output-1598381457", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1598381457" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1598381457">
-Login Successful<br/>
-Purchase page is displayed<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>45</td>
-<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@22ff4249</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, Website development and maintenance support<br/>
-<a href="#Output-472124658" onClick='toggleBox("Output-472124658", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-472124658" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-472124658">
-Login Successful<br/>
-Services page is displayed<br/>
-Service opened successfully: Website Development<br/>
-Description verified successfully: Website development and maintenance support<br/>
-</div>
-</td>
-<td></td>
-<td>38</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_login.LoginTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_login.LoginTest<br/>
-<a href="#Output-456538529" onClick='toggleBox("Output-456538529", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-456538529" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-456538529">
-Login Successful<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>47</td>
-<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, 500, 100<br/>
-<a href="#Output-1725885575" onClick='toggleBox("Output-1725885575", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1725885575" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1725885575">
-Login Successful<br/>
-Services page is displayed<br/>
-Services are available<br/>
-Service No Service Name Usage Unit Price No of Units Category Owner Action
-SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
-SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
-SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
-SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>46</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.ITC01()'><b>ITC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
-<a href="#Output-1826807929" onClick='toggleBox("Output-1826807929", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1826807929" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1826807929">
-Login Successful<br/>
-Services page is displayed<br/>
-Confirmation message: Do you want to Overwrite the existing address with this selected organization(Qspiders2031 1782977676034) address details?<br/>
-Quote No Subject Quote Stage Opportunity Name Organization Name Total Assigned To Action<br/>
-QUO259 Service Management Delivered SystemOrg1792413412141Updated $25,025.000 Sahu edit |<br/>
-QUO288 Service Management Delivered Qspiders2031 1782977676034 $25,025.000 Sahu edit |<br/>
-</div>
-</td>
-<td></td>
-<td>46</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_assets.assetsTest.TC04()'><b>TC04</b><br>Test class: inventory_vtiger_assets.assetsTest<br>Parameters: SN1001, 2026-13-40, TestAsset1001, 10/17/26<br/>
-<a href="#Output-136575352" onClick='toggleBox("Output-136575352", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-136575352" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-136575352">
-Login Successful<br/>
-Assets page is displayed<br/>
-Confirmation message: Please enter a valid Date Sold<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>50</td>
-<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
-<tr>
-<td title='inventory_vtiger_pricebook.PriceBookTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br>Parameters: Updated_new_PriceBook<br/>
-<a href="#Output-55751887" onClick='toggleBox("Output-55751887", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-55751887" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-55751887">
+<a href="#Output-1388456901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1388456901">
 Login Successful<br/>
 Price page is displayed<br/>
 updated name is displayed<br/>
@@ -520,45 +316,14 @@ Edited Orders: PB159 Updated_new_PriceBook no India, Rupees edit | del<br/>
 </div>
 </td>
 <td></td>
-<td>44</td>
+<td>46</td>
 <td>inventory_vtiger_pricebook.PriceBookTest@4c402120</td></tr>
 <tr>
-<td title='inventory_vtiger_services.ServicesTest.NTC01()'><b>NTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
-<a href="#Output-25734038" onClick='toggleBox("Output-25734038", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-25734038" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-25734038">
-Login Successful<br/>
-Services page is displayed<br/>
-Confirmation message: Service Name cannot be empty<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>43</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: New_Order<br/>
-<a href="#Output-1058976188" onClick='toggleBox("Output-1058976188", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1058976188" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1058976188">
-Login Successful<br/>
-Purchase page is displayed<br/>
-updated name is displayed<br/>
-Edited Order name: New_Order<br/>
-Edited Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>54</td>
-<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@22ff4249</td></tr>
-<tr>
 <td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, Data entry and data management support<br/>
-<a href="#Output-321358401" onClick='toggleBox("Output-321358401", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1472904643" onClick='toggleBox("Output-1472904643", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-321358401" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-321358401">
+<a href="#Output-1472904643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1472904643">
 Login Successful<br/>
 Services page is displayed<br/>
 Service opened successfully: Data Entry<br/>
@@ -566,78 +331,99 @@ Description verified successfully: Data entry and data management support<br/>
 </div>
 </td>
 <td></td>
-<td>39</td>
+<td>41</td>
 <td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
 <tr>
-<td title='inventory_vtiger_assets.assetsTest.TC05()'><b>TC05</b><br>Test class: inventory_vtiger_assets.assetsTest<br>Parameters: Updated_new_Asset<br/>
-<a href="#Output-391010601" onClick='toggleBox("Output-391010601", this, "Show output", "Hide output");'>Show output</a>
+<td title='inventory_vtiger_pricebook.PriceBookTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br>Parameters: Updated_new_PriceBook<br/>
+<a href="#Output-179929138" onClick='toggleBox("Output-179929138", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-391010601" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-391010601">
-Login Successful<br/>
-Assets page is displayed<br/>
-Asset Name is updated successfully<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>44</td>
-<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
-<tr>
-<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: adsf, adsf<br/>
-<a href="#Output-1745462369" onClick='toggleBox("Output-1745462369", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1745462369" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1745462369">
-Login Successful<br/>
-Username: adsf<br/>
-Password: adsf<br/>
-Error Message: You must specify a valid username and password.<br/>
-Invalid login validation completed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
-<tr>
-<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: , vdjh<br/>
-<a href="#Output-207802506" onClick='toggleBox("Output-207802506", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-207802506" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-207802506">
-Login Successful<br/>
-Username: <br/>
-Password: vdjh<br/>
-Error Message: You must specify a valid username and password.<br/>
-Invalid login validation completed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
-<tr>
-<td title='inventory_vtiger_pricebook.PriceBookTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br/>
-<a href="#Output-9292837" onClick='toggleBox("Output-9292837", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-9292837" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-9292837">
+<a href="#Output-179929138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-179929138">
 Login Successful<br/>
 Price page is displayed<br/>
+updated name is displayed<br/>
+Edited Order name: Updated_new_PriceBook<br/>
+Edited Orders: PB159 Updated_new_PriceBook no India, Rupees edit | del<br/>
+Records are displayed for particular search<br/>
+Edited Orders: PB159 Updated_new_PriceBook no India, Rupees edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>inventory_vtiger_pricebook.PriceBookTest@4c402120</td></tr>
+<tr>
+<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br/>
+<a href="#Output-1519446620" onClick='toggleBox("Output-1519446620", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1519446620" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1519446620">
+Login Successful<br/>
+Purchase page is displayed<br/>
 Signout is successful<br/>
 </div>
 </td>
 <td></td>
-<td>44</td>
-<td>inventory_vtiger_pricebook.PriceBookTest@4c402120</td></tr>
+<td>39</td>
+<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@22ff4249</td></tr>
 <tr>
-<td title='inventory_vtiger_services.ServicesTest.ITC02()'><b>ITC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
-<a href="#Output-890547325" onClick='toggleBox("Output-890547325", this, "Show output", "Hide output");'>Show output</a>
+<td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Quality Assurance, Software installation and configuration support<br/>
+<a href="#Output-1212453642" onClick='toggleBox("Output-1212453642", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-890547325" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-890547325">
+<a href="#Output-1212453642" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1212453642">
 Login Successful<br/>
 Services page is displayed<br/>
-Confirmation message: Do you want to Overwrite the existing address with this selected organization(Qspiders2031 1782977676034) address details?<br/>
+Service opened successfully: Software Quality Assurance<br/>
+Description verified successfully: Software installation and configuration support<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.NTC01()'><b>NTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-237410024" onClick='toggleBox("Output-237410024", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-237410024" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-237410024">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Service Name cannot be empty<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_assets.assetsTest.TC03()'><b>TC03</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
+<a href="#Output-1612040005" onClick='toggleBox("Output-1612040005", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1612040005" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1612040005">
+Login Successful<br/>
+Assets page is displayed<br/>
+Showing Records 1 - 2 of 2   of 1     
+Ticket No Subject  Related To Status Priority Assigned To Action
+TT756 Indigo Flight Open Low ACOE Fireflink edit | del
+TT753 AutoTicket788 Open High ACOE Fireflink edit | del<br/>
+Showing Records 1 - 1 of 1   of 1     
+Title  File Name Modified Time Assigned To Folder Name Action
+ATekPyramidDocName QATest.txt 2026-07-01 07:47:00 ACOE Fireflink documents edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.ITC02()'><b>ITC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-355933666" onClick='toggleBox("Output-355933666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-355933666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-355933666">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Do you want to Overwrite the existing address with this selected organization(XSPARK) address details?<br/>
 Order No Subject  Organization Name Quote Name Total Assigned To Action<br/>
 SO290 Service Management TestOrg1782741117289 $25,025.000 ACOE Fireflink edit<br/>
 SO291 Service Management SystemOrg1792308693734Updated $25,025.000 ACOE Fireflink edit<br/>
@@ -662,97 +448,241 @@ SO309 Service Management SystemOrg1792320153949Updated $25,025.000 ACOE Fireflin
 </div>
 </td>
 <td></td>
-<td>54</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.NTC02()'><b>NTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
-<a href="#Output-755576935" onClick='toggleBox("Output-755576935", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-755576935" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-755576935">
-Login Successful<br/>
-Services page is displayed<br/>
-Confirmation message: Invalid Price<br/>
-Signout is successful<br/>
-</div>
-</td>
-<td></td>
-<td>44</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_vrndors.vendorsTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_vrndors.vendorsTest<br>Parameters: Updated_new_vendor<br/>
-<a href="#Output-1506403257" onClick='toggleBox("Output-1506403257", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1506403257" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1506403257">
-Login Successful<br/>
-Vendors page is displayed<br/>
-updated name is displayed<br/>
-Edited Order name: Updated_new_vendor<br/>
-Edited Orders: VEN1877 Updated_new_vendor cd@nomail.com Morning edit | del<br/>
-Records are displayed for particular search<br/>
-Edited Orders: VEN1877 Updated_new_vendor cd@nomail.com Morning edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>57</td>
-<td>inventory_vtiger_vrndors.vendorsTest@327514f</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Quality Assurance, Software installation and configuration support<br/>
-<a href="#Output-244428576" onClick='toggleBox("Output-244428576", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-244428576" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-244428576">
-Login Successful<br/>
-Services page is displayed<br/>
-Service opened successfully: Software Quality Assurance<br/>
-Description verified successfully: Software installation and configuration support<br/>
-</div>
-</td>
-<td></td>
-<td>40</td>
+<td>52</td>
 <td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
 <tr>
 <td title='inventory_vtiger_vrndors.vendorsTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_vrndors.vendorsTest<br/>
-<a href="#Output-1476755892" onClick='toggleBox("Output-1476755892", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-80668955" onClick='toggleBox("Output-80668955", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1476755892" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1476755892">
+<a href="#Output-80668955" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-80668955">
 Login Successful<br/>
 Vendors page is displayed<br/>
 Signout is successful<br/>
 </div>
 </td>
 <td></td>
-<td>58</td>
+<td>39</td>
 <td>inventory_vtiger_vrndors.vendorsTest@327514f</td></tr>
 <tr>
-<td title='inventory_vtiger_services.ServicesTest.FTC04()'><b>FTC04</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, 1, 0, -1<br/>
-<a href="#Output-1633584044" onClick='toggleBox("Output-1633584044", this, "Show output", "Hide output");'>Show output</a>
+<td title='inventory_vtiger_assets.assetsTest.TC04()'><b>TC04</b><br>Test class: inventory_vtiger_assets.assetsTest<br>Parameters: SN1001, 2026-13-40, TestAsset1001, 10/17/26<br/>
+<a href="#Output-964385581" onClick='toggleBox("Output-964385581", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1633584044" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1633584044">
+<a href="#Output-964385581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-964385581">
 Login Successful<br/>
-Services page is displayed<br/>
-Service opened successfully: Data Entry<br/>
-One units value verified successfully:<br/>
-Actual Units: 1.00<br/>
-Zero units value verified successfully:<br/>
-Actual Units: <br/>
-Alert message displayed: Invalid No of Units<br/>
-Invalid units validation verified successfully<br/>
-Alert popup handled successfully<br/>
+Assets page is displayed<br/>
+Confirmation message: Please enter a valid Date Sold<br/>
+Signout is successful<br/>
 </div>
 </td>
 <td></td>
-<td>53</td>
+<td>48</td>
+<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
+<tr>
+<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: New_Order<br/>
+<a href="#Output-1307211324" onClick='toggleBox("Output-1307211324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1307211324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1307211324">
+Login Successful<br/>
+Purchase page is displayed<br/>
+updated name is displayed<br/>
+Edited Order name: New_Order<br/>
+Edited Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@22ff4249</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-79092014" onClick='toggleBox("Output-79092014", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-79092014" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-79092014">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-1892869131" onClick='toggleBox("Output-1892869131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1892869131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1892869131">
+Login Successful<br/>
+Services page is displayed<br/>
+Creating page is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_home.homePageTest.TC02()'><b>TC02</b><br>Test class: inventory_vtiger_home.homePageTest<br/>
+<a href="#Output-1447955052" onClick='toggleBox("Output-1447955052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1447955052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1447955052">
+Login Successful<br/>
+Home Page is diaplayed<br/>
+Services page is displayed<br/>
+Assets page is displayed<br/>
+Purchase page is displayed<br/>
+Price page is displayed<br/>
+Vendors page is displayed<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>inventory_vtiger_home.homePageTest@6025e1b6</td></tr>
+<tr>
+<td title='inventory_vtiger_login.LoginTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_login.LoginTest<br/>
+<a href="#Output-513629561" onClick='toggleBox("Output-513629561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-513629561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-513629561">
+Login Successful<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.STC02()'><b>STC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-1927406983" onClick='toggleBox("Output-1927406983", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1927406983" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1927406983">
+Login Successful<br/>
+Services page is displayed<br/>
+Active Status:yes <br/>
+After<br/>
+Active Status:no <br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_assets.assetsTest.TC05()'><b>TC05</b><br>Test class: inventory_vtiger_assets.assetsTest<br>Parameters: Updated_new_Asset<br/>
+<a href="#Output-283963972" onClick='toggleBox("Output-283963972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-283963972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-283963972">
+Login Successful<br/>
+Assets page is displayed<br/>
+Asset Name is updated successfully<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.RTC01()'><b>RTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Quality Assurance, Website Development, Updated installation and configuration support<br/>
+<a href="#Output-1489660835" onClick='toggleBox("Output-1489660835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1489660835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1489660835">
+Login Successful<br/>
+Services page is displayed<br/>
+Service opened successfully: Software Quality Assurance<br/>
+Service opened successfully: Website Development<br/>
+Service opened successfully: Software Quality Assurance<br/>
+Service opened successfully: Software Quality Assurance<br/>
+Original Description: Software installation and configuration support<br/>
+Updated Description: Updated installation and configuration support<br/>
+Service opened successfully: Website Development<br/>
+Service description verified successfully: Website development and maintenance support<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: , vdjh<br/>
+<a href="#Output-84985529" onClick='toggleBox("Output-84985529", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-84985529" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-84985529">
+Login Successful<br/>
+Username: <br/>
+Password: vdjh<br/>
+Error Message: You must specify a valid username and password.<br/>
+Invalid login validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
+<tr>
+<td title='inventory_vtiger_pricebook.PriceBookTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_pricebook.PriceBookTest<br/>
+<a href="#Output-917887967" onClick='toggleBox("Output-917887967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-917887967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-917887967">
+Login Successful<br/>
+Price page is displayed<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>inventory_vtiger_pricebook.PriceBookTest@4c402120</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC03()'><b>FTC03</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-1067588937" onClick='toggleBox("Output-1067588937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1067588937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1067588937">
+Login Successful<br/>
+Services page is displayed<br/>
+Service No entered: SER207<br/>
+Service number verified successfully
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
 <td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
 <tr>
 <td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: New_Order<br/>
-<a href="#Output-590398917" onClick='toggleBox("Output-590398917", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-100052509" onClick='toggleBox("Output-100052509", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-590398917" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-590398917">
+<a href="#Output-100052509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-100052509">
 Login Successful<br/>
 Purchase page is displayed<br/>
 updated name is displayed<br/>
@@ -763,111 +693,321 @@ Searched Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit
 </div>
 </td>
 <td></td>
-<td>47</td>
+<td>42</td>
 <td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@22ff4249</td></tr>
 <tr>
-<td title='inventory_vtiger_services.ServicesTest.FTC03()'><b>FTC03</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
-<a href="#Output-28318221" onClick='toggleBox("Output-28318221", this, "Show output", "Hide output");'>Show output</a>
+<td title='inventory_vtiger_assets.assetsTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_assets.assetsTest<br/>
+<a href="#Output-2011281484" onClick='toggleBox("Output-2011281484", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-28318221" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-28318221">
+<a href="#Output-2011281484" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2011281484">
 Login Successful<br/>
-Services page is displayed<br/>
-Service No entered: SER207<br/>
-Service number verified successfully
-Service No Service Name Usage Unit Price No of Units Category Owner Action
-SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del<br/>
+Assets page is displayed<br/>
 </div>
 </td>
 <td></td>
-<td>36</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<td>38</td>
+<td>inventory_vtiger_assets.assetsTest@40a4337a</td></tr>
 <tr>
-<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Quality Assurance, 15000, 5<br/>
-<a href="#Output-1134976216" onClick='toggleBox("Output-1134976216", this, "Show output", "Hide output");'>Show output</a>
+<td title='inventory_vtiger_services.ServicesTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, Website development and maintenance support<br/>
+<a href="#Output-423344137" onClick='toggleBox("Output-423344137", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1134976216" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1134976216">
+<a href="#Output-423344137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423344137">
 Login Successful<br/>
 Services page is displayed<br/>
-Services are available<br/>
-Service No Service Name Usage Unit Price No of Units Category Owner Action
-SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
-SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
-SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
-SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>47</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
-<a href="#Output-1629353699" onClick='toggleBox("Output-1629353699", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1629353699" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1629353699">
-Login Successful<br/>
-Services page is displayed<br/>
-Services are available<br/>
-Service No Service Name Usage Unit Price No of Units Category Owner Action
-SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
-SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
-SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
-SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
-SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
-SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
-SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
-</div>
-</td>
-<td></td>
-<td>36</td>
-<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
-<tr>
-<td title='inventory_vtiger_services.ServicesTest.STC02()'><b>STC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
-<a href="#Output-567531244" onClick='toggleBox("Output-567531244", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-567531244" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-567531244">
-Login Successful<br/>
-Services page is displayed<br/>
-Active Status:no <br/>
-After<br/>
-Active Status:yes <br/>
-Signout is successful<br/>
+Service opened successfully: Website Development<br/>
+Description verified successfully: Website development and maintenance support<br/>
 </div>
 </td>
 <td></td>
 <td>42</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_home.homePageTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_home.homePageTest<br/>
+<a href="#Output-1247448175" onClick='toggleBox("Output-1247448175", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1247448175" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1247448175">
+Login Successful<br/>
+Home Page is diaplayed<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>inventory_vtiger_home.homePageTest@6025e1b6</td></tr>
+<tr>
+<td title='inventory_vtiger_purchaseOrder.PurchaseOrderTest.STC03()'><b>STC03</b><br>Test class: inventory_vtiger_purchaseOrder.PurchaseOrderTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-1589458696" onClick='toggleBox("Output-1589458696", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1589458696" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1589458696">
+Login Successful<br/>
+Purchase page is displayed<br/>
+Purchase page is displayed<br/>
+Records are displayed for particular search<br/>
+Searched Orders: PO231 New_Order RashiPeripherals_1544 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO232 Updated Purchase Order SavexTechnologies_438 $600.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO233 Updated Purchase Order SavexTechnologies_3897 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO234 SSD_BLK_PR_816 SavexTechnologies_628 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO238 SSD_BLK_PR_1293 SavexTechnologies_4492 $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO243 Updated Purchase Order new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO248 Service Management new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO249 DP_Updated_PO_001 new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO254 Updated Purchase Order new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO255 Updated Purchase Order new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO258 Updated Purchase Order new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO342 System Test PO new_vendor $0.00 Sahu edit | del |<br/>
+Searched Orders: PO343 System Test PO new_vendor $0.00 Sahu edit | del |<br/>
+Searched Orders: PO344 System Test PO new_vendor $0.00 Sahu edit | del |<br/>
+Searched Orders: PO345 System Test PO new_vendor $0.00 Sahu edit | del |<br/>
+Searched Orders: PO346 System Test PO new_vendor $0.00 Sahu edit | del |<br/>
+Searched Orders: PO347 System Test PO new_vendor $0.00 Sahu edit | del |<br/>
+Searched Orders: PO348 Service Management new_vendor $25,025.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO349 Service Management new_vendor $0.00 ACOE Fireflink edit | del<br/>
+Searched Orders: PO350 Service Management new_vendor $25,025.00 ACOE Fireflink edit | del<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>84</td>
+<td>inventory_vtiger_purchaseOrder.PurchaseOrderTest@22ff4249</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.TC01()'><b>TC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br/>
+<a href="#Output-2064883371" onClick='toggleBox("Output-2064883371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2064883371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2064883371">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Software Quality Assurance, 15000, 5<br/>
+<a href="#Output-1412752396" onClick='toggleBox("Output-1412752396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1412752396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1412752396">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.ITC01()'><b>ITC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-638404853" onClick='toggleBox("Output-638404853", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-638404853" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-638404853">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Do you want to Overwrite the existing address with this selected organization(XSPARK) address details?<br/>
+Quote No Subject Quote Stage Opportunity Name Organization Name Total Assigned To Action<br/>
+QUO259 Service Management Delivered SystemOrg1792413412141Updated $25,025.000 Sahu edit |<br/>
+QUO293 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO294 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO295 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO296 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO297 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO298 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO299 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO300 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO301 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO302 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO303 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO304 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO305 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+QUO306 Service Management Delivered XSPARK $25,025.000 Sahu edit |<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.NTC02()'><b>NTC02</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-2093499056" onClick='toggleBox("Output-2093499056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2093499056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2093499056">
+Login Successful<br/>
+Services page is displayed<br/>
+Confirmation message: Invalid Price<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_login.LoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: inventory_vtiger_login.LoginTest<br>Parameters: adsf, adsf<br/>
+<a href="#Output-464014674" onClick='toggleBox("Output-464014674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-464014674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-464014674">
+Login Successful<br/>
+Username: adsf<br/>
+Password: adsf<br/>
+Error Message: You must specify a valid username and password.<br/>
+Invalid login validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>inventory_vtiger_login.LoginTest@2d1ef81a</td></tr>
+<tr>
+<td title='inventory_vtiger_vrndors.vendorsTest.FTC02()'><b>FTC02</b><br>Test class: inventory_vtiger_vrndors.vendorsTest<br>Parameters: new_vendor<br/>
+<a href="#Output-1687813541" onClick='toggleBox("Output-1687813541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687813541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687813541">
+Login Successful<br/>
+Vendors page is displayed<br/>
+updated name is displayed<br/>
+Edited Order name: new_vendor<br/>
+Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del<br/>
+Records are displayed for particular search<br/>
+Edited Orders: VEN1877 new_vendor 85296358741259 nkj@gmail.com Morning edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>inventory_vtiger_vrndors.vendorsTest@327514f</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.ITC03()'><b>ITC03</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Service Management, 2026/11/16, 123 MG Road, 123 MG Road, Payment within 30 days, Quote for website development services, 1, 25000<br/>
+<a href="#Output-1091523506" onClick='toggleBox("Output-1091523506", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1091523506" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1091523506">
+Login Successful<br/>
+Services page is displayed<br/>
+Order No Subject  Vendor Name Tracking Number Total Assigned To Action<br/>
+PO348 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO350 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO355 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO357 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO360 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO361 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO363 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO368 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO372 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO374 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO376 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO399 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO402 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO406 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO407 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO409 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO411 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO413 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO417 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+PO421 Service Management new_vendor $25,025.000 ACOE Fireflink edit<br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.FTC01()'><b>FTC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Data Entry, 500, 100<br/>
+<a href="#Output-307036850" onClick='toggleBox("Output-307036850", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-307036850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307036850">
+Login Successful<br/>
+Services page is displayed<br/>
+Services are available<br/>
+Service No Service Name Usage Unit Price No of Units Category Owner Action
+SER207 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER208 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER209 Data Entry Hours $500.00 0.00 Support ACOE Fireflink edit | del
+SER210 Website Development Hours $25,000.00 1.00 Support ACOE Fireflink edit | del
+SER211 Software Testing Updated Hours $15,000.00 5.00 Support ACOE Fireflink edit | del
+SER212 Data Entry Hours $500.00 100.00 Support ACOE Fireflink edit | del
+SER213 Website Development Hours $25,000.00 1.00 --None-- ACOE Fireflink edit | del
+SER214 Test Service 1792145061984 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER215 Test Service 1792145313394 Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER216 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER217 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER218 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER219 Test Service Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER220 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER221 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER222 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER223 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER224 HardWare Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER225 Hardware Parts Hours $0.00 0.00 --None-- ACOE Fireflink edit | del
+SER226 Laptop Repair Hours $0.00 0.00 --None-- ACOE Fireflink edit | del<br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
+<tr>
+<td title='inventory_vtiger_services.ServicesTest.STC01()'><b>STC01</b><br>Test class: inventory_vtiger_services.ServicesTest<br>Parameters: Website Development, 25000, 1<br/>
+<a href="#Output-36819918" onClick='toggleBox("Output-36819918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-36819918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-36819918">
+Login Successful<br/>
+Services page is displayed<br/>
+Created Service No: SER207<br/>
+Searching Service No: SER207<br/>
+Service opened successfully: Website Development<br/>
+Service creation and search workflow completed<br/>
+Signout is successful<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
 <td>inventory_vtiger_services.ServicesTest@3c41ed1d</td></tr>
 </table><p>
 </body>

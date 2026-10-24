@@ -46,7 +46,7 @@ public class WebDriver_utility {
 
         d.manage().window().maximize();
 
-        d.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
         return d;
     }

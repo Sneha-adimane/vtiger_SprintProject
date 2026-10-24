@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 import BaseClass_Utility.BaseClass;
 import Genric_Utility.DataProviderUtility;
 import Genric_Utility.ScreenshotUtility;
-import Object_repo.HomePage;
-import Object_repo.PriceBookPage;
-import Object_repo.VendorPage;
+import Pom_utilities.HomePage;
+import Pom_utilities.PriceBookPage;
+import Pom_utilities.VendorPage;
 
 public class vendorsTest extends BaseClass{
 
